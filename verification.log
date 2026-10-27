@@ -1,0 +1,2449 @@
+$ lake build
+⚠ [1667/1859] Replayed QuantumFlags.SkewFractions
+warning: QuantumFlags/SkewFractions.lean:57:0: automatically included section variable(s) unused in theorem `QuantumFlags.skewOfCoefficients_injective`:
+  [MulSemiringAction (Multiplicative ℕ) K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MulSemiringAction (Multiplicative ℕ) K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QuantumFlags/SkewFractions.lean:114:2: Try `simp at he` instead of `simpa using he`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [1668/1859] Replayed QuantumFlags.SkewEvaluation
+warning: QuantumFlags/SkewEvaluation.lean:23:55: This simp argument is unused:
+  pow_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Function.iterate_succ_apply, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [1671/1859] Replayed QuantumFlags.SkewExtension
+warning: QuantumFlags/SkewExtension.lean:29:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/SkewExtension.lean:43:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/SkewExtension.lean:54:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/SkewExtension.lean:61:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/SkewExtension.lean:66:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/SkewExtension.lean:72:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/SkewExtension.lean:78:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1818/2018] Replayed QuantumFlags.WideStep
+warning: QuantumFlags/WideStep.lean:47:0: automatically included section variable(s) unused in theorem `QuantumFlags.actual_coordinate_step_hasInverse`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [1823/2018] Replayed QuantumFlags.GlobalBasis
+warning: QuantumFlags/GlobalBasis.lean:43:15: This simp argument is unused:
+  inv_inv
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_assoc, inv_mul_cancel_left₀ (gamma_ne_zero Q.x Q.not_rational r n)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [1828/2018] Replayed QuantumFlags.PowerSubmodules
+warning: QuantumFlags/PowerSubmodules.lean:29:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PowerSubmodules.lean:85:36: `Nat.le_step` has been deprecated: Use `Nat.le_succ_of_le` instead
+⚠ [1830/2018] Replayed QuantumFlags.RightIndex
+warning: QuantumFlags/RightIndex.lean:11:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/RightIndex.lean:12:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/RightIndex.lean:24:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1832/2018] Replayed QuantumFlags.PowerIndependence
+warning: QuantumFlags/PowerIndependence.lean:81:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1842/2018] Replayed QuantumFlags.IteratedStripDuals
+warning: QuantumFlags/IteratedStripDuals.lean:135:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+⚠ [1844/2018] Replayed QuantumFlags.HomRepresentations
+warning: QuantumFlags/HomRepresentations.lean:92:11: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [1845/2018] Replayed QuantumFlags.HomDimensions
+warning: QuantumFlags/HomDimensions.lean:81:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/HomDimensions.lean:83:8: This simp argument is unused:
+  Module.finrank_pi
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QuantumFlags/HomDimensions.lean:96:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/HomDimensions.lean:97:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1847/2018] Replayed QuantumFlags.TriangularRing
+warning: QuantumFlags/TriangularRing.lean:20:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: QuantumFlags/TriangularRing.lean:39:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [1848/2018] Replayed QuantumFlags.LeftArtinianObstruction
+warning: QuantumFlags/LeftArtinianObstruction.lean:14:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1908/2018] Replayed QuantumFlags.RightArtinian
+warning: QuantumFlags/RightArtinian.lean:16:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: QuantumFlags/RightArtinian.lean:40:29: This simp argument is unused:
+  Matrix.mul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [diagonalElement, Fin.sum_univ_two]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QuantumFlags/RightArtinian.lean:40:47: This simp argument is unused:
+  Fin.sum_univ_two
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [diagonalElement, Matrix.mul_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QuantumFlags/RightArtinian.lean:80:57: This simp argument is unused:
+  Matrix.mul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [cornerGenerators, diagonalElement, offDiagonal, Fin.sum_univ_two, h, a, b, M.property.1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QuantumFlags/RightArtinian.lean:81:8: This simp argument is unused:
+  Fin.sum_univ_two
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [cornerGenerators, diagonalElement, offDiagonal, Matrix.mul_apply, h, a, b, M.property.1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QuantumFlags/RightArtinian.lean:111:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/RightArtinian.lean:119:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1911/2018] Replayed QuantumFlags.TriangularRepresentationAction
+warning: QuantumFlags/TriangularRepresentationAction.lean:72:8: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1915/2018] Replayed QuantumFlags.CornerFiniteness
+warning: QuantumFlags/CornerFiniteness.lean:14:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerFiniteness.lean:15:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerFiniteness.lean:16:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerFiniteness.lean:18:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerFiniteness.lean:19:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerFiniteness.lean:28:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerFiniteness.lean:83:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerFiniteness.lean:86:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerFiniteness.lean:87:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1917/2018] Replayed QuantumFlags.TriangularRepresentationMaps
+warning: QuantumFlags/TriangularRepresentationMaps.lean:64:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/TriangularRepresentationMaps.lean:77:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/TriangularRepresentationMaps.lean:78:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/TriangularRepresentationMaps.lean:79:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1919/2018] Replayed QuantumFlags.CornerRepresentationRecovery
+warning: QuantumFlags/CornerRepresentationRecovery.lean:70:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerRepresentationRecovery.lean:127:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerRepresentationRecovery.lean:128:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerRepresentationRecovery.lean:129:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerRepresentationRecovery.lean:140:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerRepresentationRecovery.lean:141:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerRepresentationRecovery.lean:142:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1920/2018] Replayed QuantumFlags.CornerRepresentationNaturality
+warning: QuantumFlags/CornerRepresentationNaturality.lean:53:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerRepresentationNaturality.lean:54:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerRepresentationNaturality.lean:55:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerRepresentationNaturality.lean:56:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerRepresentationNaturality.lean:57:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/CornerRepresentationNaturality.lean:58:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1922/2018] Replayed QuantumFlags.BimoduleTriangularRing
+warning: QuantumFlags/BimoduleTriangularRing.lean:25:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleTriangularRing.lean:26:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1923/2018] Replayed QuantumFlags.BimoduleRegularCorners
+warning: QuantumFlags/BimoduleRegularCorners.lean:103:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleRegularCorners.lean:112:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1924/2018] Replayed QuantumFlags.TwoCornerSubmodules
+warning: QuantumFlags/TwoCornerSubmodules.lean:26:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/TwoCornerSubmodules.lean:27:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/TwoCornerSubmodules.lean:64:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/TwoCornerSubmodules.lean:65:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/TwoCornerSubmodules.lean:66:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/TwoCornerSubmodules.lean:67:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/TwoCornerSubmodules.lean:75:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/TwoCornerSubmodules.lean:76:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/TwoCornerSubmodules.lean:77:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/TwoCornerSubmodules.lean:78:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1925/2018] Replayed QuantumFlags.BimoduleArtinian
+warning: QuantumFlags/BimoduleArtinian.lean:13:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleArtinian.lean:14:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleArtinian.lean:15:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleArtinian.lean:16:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleArtinian.lean:22:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleArtinian.lean:33:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleArtinian.lean:34:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleArtinian.lean:35:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleArtinian.lean:36:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleArtinian.lean:47:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleArtinian.lean:48:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleArtinian.lean:51:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleArtinian.lean:55:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleArtinian.lean:56:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleArtinian.lean:57:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleArtinian.lean:65:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1927/2018] Replayed QuantumFlags.SkewRightSpaces
+warning: QuantumFlags/SkewRightSpaces.lean:132:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/SkewRightSpaces.lean:133:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/SkewRightSpaces.lean:165:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1928/2018] Replayed QuantumFlags.IntegerPowerIndependence
+warning: QuantumFlags/IntegerPowerIndependence.lean:93:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/IntegerPowerIndependence.lean:111:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1929/2018] Replayed QuantumFlags.BalancedTensor
+warning: QuantumFlags/BalancedTensor.lean:77:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1931/2018] Replayed QuantumFlags.FiniteDualTensor
+warning: QuantumFlags/FiniteDualTensor.lean:76:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/FiniteDualTensor.lean:114:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/FiniteDualTensor.lean:115:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [1933/2018] Replayed QuantumFlags.ReflectionObjects
+warning: QuantumFlags/ReflectionObjects.lean:46:0: automatically included section variable(s) unused in theorem `QuantumFlags.reflectionCokernelMap_mk`:
+  [FiniteDimensional N.RightRingᵐᵒᵖ N.Space]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional N.RightRingᵐᵒᵖ N.Space] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [1962/2018] Replayed QuantumFlags.ScalarLineRetractions
+warning: QuantumFlags/ScalarLineRetractions.lean:37:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: QuantumFlags/ScalarLineRetractions.lean:62:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [2042/2151] Replayed QuantumFlags.ReflectionIdempotents
+warning: QuantumFlags/ReflectionIdempotents.lean:30:12: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: QuantumFlags/ReflectionIdempotents.lean:31:13: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [2066/2151] Replayed QuantumFlags.BimoduleRepresentationAction
+warning: QuantumFlags/BimoduleRepresentationAction.lean:63:8: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2068/2151] Replayed QuantumFlags.BimoduleRepresentationMaps
+warning: QuantumFlags/BimoduleRepresentationMaps.lean:32:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleRepresentationMaps.lean:44:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleRepresentationMaps.lean:45:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleRepresentationMaps.lean:46:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2069/2151] Replayed QuantumFlags.BimoduleRepresentationRecovery
+warning: QuantumFlags/BimoduleRepresentationRecovery.lean:95:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleRepresentationRecovery.lean:105:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleRepresentationRecovery.lean:117:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/BimoduleRepresentationRecovery.lean:118:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2078/2151] Replayed QuantumFlags.BalancedTensorCoordinates
+warning: QuantumFlags/BalancedTensorCoordinates.lean:40:0: automatically included section variable(s) unused in theorem `QuantumFlags.balancedTensorCoordinates_pure`:
+  [Fintype I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [2081/2151] Replayed QuantumFlags.ReflectionFiniteDimensions
+warning: QuantumFlags/ReflectionFiniteDimensions.lean:33:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2082/2151] Replayed QuantumFlags.TensorRepresentationDimensionBounds
+warning: QuantumFlags/TensorRepresentationDimensionBounds.lean:18:0: automatically included section variable(s) unused in theorem `QuantumFlags.tensorRepresentation_target_finrank_le`:
+  [FiniteDimensional N.RightRingᵐᵒᵖ M.Target]
+  [FiniteDimensional N.LeftRingᵐᵒᵖ (RightDualSpace N)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional N.RightRingᵐᵒᵖ M.Target] [FiniteDimensional N.LeftRingᵐᵒᵖ (RightDualSpace N)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QuantumFlags/TensorRepresentationDimensionBounds.lean:24:0: automatically included section variable(s) unused in theorem `QuantumFlags.tensorRepresentation_source_finrank_le`:
+  [FiniteDimensional N.LeftRingᵐᵒᵖ M.Source]
+  [FiniteDimensional N.RightRingᵐᵒᵖ N.Space]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional N.LeftRingᵐᵒᵖ M.Source] [FiniteDimensional N.RightRingᵐᵒᵖ N.Space] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [2084/2151] Replayed QuantumFlags.FiniteDecomposition
+warning: QuantumFlags/FiniteDecomposition.lean:65:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/FiniteDecomposition.lean:83:35: `Submodule.linearProjOfIsCompl` has been deprecated: Use `Submodule.projectionOnto` instead
+warning: QuantumFlags/FiniteDecomposition.lean:84:9: `Submodule.linearProjOfIsCompl_surjective` has been deprecated: Use `Submodule.projectionOnto_surjective` instead
+warning: QuantumFlags/FiniteDecomposition.lean:86:35: `Submodule.linearProjOfIsCompl` has been deprecated: Use `Submodule.projectionOnto` instead
+warning: QuantumFlags/FiniteDecomposition.lean:87:9: `Submodule.linearProjOfIsCompl_surjective` has been deprecated: Use `Submodule.projectionOnto_surjective` instead
+⚠ [2085/2151] Replayed QuantumFlags.DecompositionLemma
+warning: QuantumFlags/DecompositionLemma.lean:73:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/DecompositionLemma.lean:116:30: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: QuantumFlags/DecompositionLemma.lean:244:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/DecompositionLemma.lean:252:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/DecompositionLemma.lean:328:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2086/2151] Replayed QuantumFlags.PureSemisimpleDefs
+warning: QuantumFlags/PureSemisimpleDefs.lean:84:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PureSemisimpleDefs.lean:106:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PureSemisimpleDefs.lean:158:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PureSemisimpleDefs.lean:160:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PureSemisimpleDefs.lean:182:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PureSemisimpleDefs.lean:184:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2092/2151] Replayed QuantumFlags.OreCountable
+warning: QuantumFlags/OreCountable.lean:20:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/OreCountable.lean:21:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/OreCountable.lean:27:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/OreCountable.lean:28:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/OreCountable.lean:42:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/OreCountable.lean:47:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2093/2151] Replayed QuantumFlags.LeftPureSemisimplicityFailure
+warning: QuantumFlags/LeftPureSemisimplicityFailure.lean:150:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: QuantumFlags/LeftPureSemisimplicityFailure.lean:157:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: QuantumFlags/LeftPureSemisimplicityFailure.lean:216:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/LeftPureSemisimplicityFailure.lean:234:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/LeftPureSemisimplicityFailure.lean:280:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/LeftPureSemisimplicityFailure.lean:294:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2094/2151] Replayed QuantumFlags.QuantumLaurentSkew
+warning: QuantumFlags/QuantumLaurentSkew.lean:31:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2096/2151] Replayed QuantumFlags.QuantumLaurentMonomials
+warning: QuantumFlags/QuantumLaurentMonomials.lean:90:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: QuantumFlags/QuantumLaurentMonomials.lean:96:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: QuantumFlags/QuantumLaurentMonomials.lean:108:6: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: QuantumFlags/QuantumLaurentMonomials.lean:108:18: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: QuantumFlags/QuantumLaurentMonomials.lean:108:30: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: QuantumFlags/QuantumLaurentMonomials.lean:114:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: QuantumFlags/QuantumLaurentMonomials.lean:114:20: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: QuantumFlags/QuantumLaurentMonomials.lean:224:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/QuantumLaurentMonomials.lean:225:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2102/2151] Replayed QuantumFlags.QuantumLaurentFractions
+warning: QuantumFlags/QuantumLaurentFractions.lean:278:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2104/2151] Replayed QuantumFlags.EquivalenceIndecomposable
+warning: QuantumFlags/EquivalenceIndecomposable.lean:26:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/EquivalenceIndecomposable.lean:28:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2109/2151] Replayed QuantumFlags.RetractClosedIndecomposable
+warning: QuantumFlags/RetractClosedIndecomposable.lean:11:0: automatically included section variable(s) unused in theorem `QuantumFlags.faithful_isZero_iff`:
+  [HasBinaryBiproducts C]
+  [HasBinaryBiproducts D]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [HasBinaryBiproducts C] [HasBinaryBiproducts D] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QuantumFlags/RetractClosedIndecomposable.lean:27:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2110/2151] Replayed QuantumFlags.RepresentationRetracts
+warning: QuantumFlags/RepresentationRetracts.lean:85:0: automatically included section variable(s) unused in theorem `QuantumFlags.surjectiveDualTensorInclusion_retract_closed`:
+  [FiniteDimensional N.RightRingᵐᵒᵖ N.Space]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional N.RightRingᵐᵒᵖ N.Space] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [2111/2151] Replayed QuantumFlags.TensorReflectionEquivalence
+warning: QuantumFlags/TensorReflectionEquivalence.lean:32:4: Unused tactic linter: `change
+  Function.Injective (tensorRepresentationToHom (homRepresentationToTensor M.val)).arrow` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [2122/2151] Replayed QuantumFlags.InverseReflectionDimensions
+warning: QuantumFlags/InverseReflectionDimensions.lean:21:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2126/2151] Replayed QuantumFlags.CanonicalProjectiveArrow
+warning: QuantumFlags/CanonicalProjectiveArrow.lean:42:2: `LinearEquiv.ofLinear` has been deprecated: Use `LinearEquiv.ofLinearMap` instead
+⚠ [2129/2151] Replayed QuantumFlags.ZeroDefectIndecomposable
+warning: QuantumFlags/ZeroDefectIndecomposable.lean:20:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/ZeroDefectIndecomposable.lean:21:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2131/2151] Replayed QuantumFlags.PreinjectiveObjects
+warning: QuantumFlags/PreinjectiveObjects.lean:34:19: Variable name `y` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _y
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2134/2151] Replayed QuantumFlags.ActualPreinjectiveFamily
+warning: QuantumFlags/ActualPreinjectiveFamily.lean:10:0: Definition `flagReflectionChain` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+warning: QuantumFlags/ActualPreinjectiveFamily.lean:17:0: Definition `actualReflectionChain` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+⚠ [2136/2151] Replayed QuantumFlags.RepresentationModuleFiniteness
+warning: QuantumFlags/RepresentationModuleFiniteness.lean:15:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2137/2151] Replayed QuantumFlags.PreinjectiveRightModules
+warning: QuantumFlags/PreinjectiveRightModules.lean:16:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PreinjectiveRightModules.lean:17:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PreinjectiveRightModules.lean:19:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PreinjectiveRightModules.lean:25:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PreinjectiveRightModules.lean:26:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2140/2151] Replayed QuantumFlags.PositiveDefectClassification
+warning: QuantumFlags/PositiveDefectClassification.lean:26:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PositiveDefectClassification.lean:27:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PositiveDefectClassification.lean:28:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PositiveDefectClassification.lean:39:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PositiveDefectClassification.lean:40:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PositiveDefectClassification.lean:41:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PositiveDefectClassification.lean:43:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2141/2151] Replayed QuantumFlags.FiniteIndecomposableClassification
+warning: QuantumFlags/FiniteIndecomposableClassification.lean:49:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/FiniteIndecomposableClassification.lean:50:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/FiniteIndecomposableClassification.lean:51:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2142/2151] Replayed QuantumFlags.FiniteRightModuleClassification
+warning: QuantumFlags/FiniteRightModuleClassification.lean:18:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/FiniteRightModuleClassification.lean:19:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/FiniteRightModuleClassification.lean:20:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/FiniteRightModuleClassification.lean:24:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/FiniteRightModuleClassification.lean:25:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2144/2151] Replayed QuantumFlags.PreinjectiveHomVanishing
+warning: QuantumFlags/PreinjectiveHomVanishing.lean:48:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PreinjectiveHomVanishing.lean:49:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PreinjectiveHomVanishing.lean:50:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PreinjectiveHomVanishing.lean:66:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PreinjectiveHomVanishing.lean:67:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PreinjectiveHomVanishing.lean:68:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PreinjectiveHomVanishing.lean:70:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2145/2151] Replayed QuantumFlags.ClassificationList
+warning: QuantumFlags/ClassificationList.lean:172:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2146/2151] Replayed QuantumFlags.ModuleIndecomposableCriteria
+warning: QuantumFlags/ModuleIndecomposableCriteria.lean:27:41: `Submodule.linearProjOfIsCompl` has been deprecated: Use `Submodule.projectionOnto` instead
+warning: QuantumFlags/ModuleIndecomposableCriteria.lean:29:32: `Submodule.linearProjOfIsCompl_apply_left` has been deprecated: Use `Submodule.projectionOnto_apply_left` instead
+warning: QuantumFlags/ModuleIndecomposableCriteria.lean:51:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [2147/2151] Replayed QuantumFlags.PureSemisimplicity
+warning: QuantumFlags/PureSemisimplicity.lean:42:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PureSemisimplicity.lean:43:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PureSemisimplicity.lean:44:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PureSemisimplicity.lean:49:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PureSemisimplicity.lean:50:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PureSemisimplicity.lean:80:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PureSemisimplicity.lean:91:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PureSemisimplicity.lean:116:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PureSemisimplicity.lean:130:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PureSemisimplicity.lean:131:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PureSemisimplicity.lean:152:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: QuantumFlags/PureSemisimplicity.lean:153:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (2151 jobs).
+
+$ lake env lean AxiomAudit.lean
+'QuantumFlags.actual_generalized_artin_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actualFiniteIndecomposable_classification' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actualFiniteRightModule_indecomposable_classification' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.actualPreinjective_dimension_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actualPreinjective_indecomposable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actualPreinjective_pairwise_nonisomorphic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actualPreinjectiveRightModule_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actualPreinjectiveRightModule_finitelyPresented' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.actualPreinjectiveRightModule_indecomposable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actualPreinjectiveRightModule_pairwise_nonisomorphic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.actualPreinjectiveRightModuleEndRingEquiv_exists' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.actualCounterexample_right_rank_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_bimodule_triangular_right_pure_semisimple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.actual_triangular_right_pure_semisimple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_triangular_not_finitelyManyRightIndecomposables' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.actual_triangular_not_finite_representation_type' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.ore_right_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.ore_left_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actualPowerChainProperties' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actualQuantumChain_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_global_right_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_global_adjacent_flags' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftPowerEval_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftPowerEval_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.power_mem_rightFlagSpan' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightPowerEval_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.flag_right_basis_linearIndependent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.flag_right_prefix_linearIndependent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.flag_right_prefix_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.all_width_direct_flags' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_all_width_direct_flags' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.ambientHomEvaluationEquiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.ambientHomEvaluationEquiv_symm_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.ambientRepresentationArrow_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.inverseIterateHom_apply' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.poch_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.inverseIterateHom_fixed' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.inverse_scales_by_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.inverseIterateHom_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.inverseIterateHom_poch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.automorphism_conjugate_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedRelation_mkQ_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedPure_zero_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedPure_add_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedPure_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedPure_add_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedPure_smul_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedFreeLift_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedRelations_le_ker' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedTensorLift_pure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedTensorCurry_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedTensor_ext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedTensorMap_pure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedTensorMap_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedTensorMap_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedTensorCoordinates_pure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedTensorBasisInverse_coordinates_pure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedTensorBasisInverse_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedTensorCoordinates_basisInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedTensor_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.right_change_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.right_basis_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.left_change_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.left_basis_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.right_recursion_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.left_recursion_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.ambient_triangular_ring_isomorphism' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.bimodule_triangular_op_artinian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.bimodule_triangular_right_artinian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.bimodule_triangular_op_noetherian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.bimodule_finite_iff_corners' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.bimodule_finite_presentation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.bimodule_source_offDiagonal' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimodule_target_offDiagonal' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimodule_cross_offDiagonal' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimodule_target_offDiagonal_mul' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimodule_offDiagonal_source_mul' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimodule_target_offDiagonal_one' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimodule_offDiagonal_source_one' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimodule_source_corner_mul' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimodule_target_corner_mul' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimodule_source_target_zero' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimodule_target_source_zero' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimoduleCornerDecomposition_components' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimoduleCornerHomRepresentation_arrow_apply' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimoduleCornerModuleEquiv_apply' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.BimoduleEquivalence.symm_map_left' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.BimoduleEquivalence.symm_map_right' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.BimoduleEquivalence.transportDual_inverse' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.BimoduleEquivalence.right_rank_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.BimoduleEquivalence.right_finrank_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.bimodule_source_regular_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.bimodule_target_regular_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.bimodule_representation_action' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimoduleTensorRepresentation_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.bimoduleRepresentation_indecomposable_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.bimoduleTensorRepresentation_indecomposable_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.bimoduleRepresentationEndRingEquiv_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.bimoduleTensorRepresentationEndRingEquiv_exists' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.bimoduleRepresentationEquivalence_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.bimoduleTensorRepresentationEquivalence_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.bimoduleHomRepresentationModuleMap_identity' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimoduleHomRepresentationModuleMap_compose' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimoduleCornerHomRepresentationMap_identity' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimoduleCornerHomRepresentationMap_compose' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimoduleCornerModuleEquiv_natural' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimoduleHomRepresentationRecovery_left_inverse' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimoduleHomRepresentationRecovery_right_inverse' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimoduleHomRepresentationRecovery_natural' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.triangularCoefficientComm' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimodule_cross_mul' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimodule_triangular_ext' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimodule_source_diagonal' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimodule_target_diagonal' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimodule_cross_diagonal' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.bimodule_corner_units_sum' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.canonicalProjective_arrow' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.canonicalProjectiveEnd_target' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.canonicalProjectiveEndRingHom_bijective' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.canonicalProjectiveEndRingEquiv_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.canonicalProjective_indecomposable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorCanonicalProjective_indecomposable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.canonicalProjective_tensorInverse_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.canonicalProjective_tensorInverse_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.canonicalProjective_tensorArrow_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.canonicalProjective_source_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.canonicalProjective_target_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.canonicalProjective_dimension_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classObject_inl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classObject_projective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classObject_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classObject_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classObject_source_finrank_pos_or' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classObject_source_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classObject_target_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classObject_indecomposable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classObject_endRing_division' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classObject_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classObject_irredundant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classObject_hom_subsingleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.positivePoly_coeff_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumPoly_coeff_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.positivePoly_coeff_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumPoly_coeff_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.positivePoly_coeff_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.positivePoly_coeff_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumPoly_coeff_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumPoly_coeff_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.positivePoly_coeff_above' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumPoly_natDegree_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumPoly_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.poch_coefficient_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.localConj_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.localConj_compatible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.kappaFn_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.common_layer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.kappa_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.localGenerators_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.localGenerators_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.chain_finite_adjacent_flags' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.linear_factor_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rat_mul_notRational' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.poch_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cast_half_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.right_strip_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.left_strip_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightCoordinate_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftCoordinate_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.right_local_flag_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.left_local_flag_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.HasInverse.mulVec_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.HasInverse.vecMul_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.all_layers_coordinate_bijections' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.corner_finite_of_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.corner_coe_mem_of_span' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.source_corner_finite_of_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.target_corner_finite_of_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangular_finite_of_finite_corners' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangular_finite_iff_corners' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerDecomposition_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerDecomposition_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerRepresentationMorphism_arrow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.moduleMapFromCornerHom_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.moduleMapFromCornerHom_extract' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerHomRepresentationMap_reassemble' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerHomMapEquiv_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.source_offDiagonal_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cross_offDiagonal_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.target_offDiagonal_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.target_offDiagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.target_offDiagonal_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.offDiagonal_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.offDiagonal_source_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.source_corner_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.target_corner_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerArrow_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerModuleEquiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.source_diagonal_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cross_diagonal_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.target_diagonal_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.source_regular_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.source_regular_cross_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.source_regular_target_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.target_regular_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.target_regular_source_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerHomRepresentation_ambient_arrow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.moduleFromCornerHomEquiv_natural' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.homRepresentationRecovery_natural' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerArrow_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.homRepresentationRecovery_left_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.homRepresentationRecovery_right_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.precomposition_smul' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.exists_basis_modulo' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.component_apply_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.component_lof_of_ne' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.exists_finset_component_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.eq_sum_lof_component' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.decomposition_lemma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightDual_left_action' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.dualTensorEvaluation_pure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftMultiplication_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightMultiplication_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.stripDualEquiv_twist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_strip_duality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.indecomposable_of_trivial_end_idempotents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.indecomposable_of_endRingEquiv_division' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.equivalence_isZero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.equivalence_indecomposable_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.liftRat_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.diagUnit_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightRecursion_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftRecursion_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightRecursion_congr_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftRecursion_congr_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.right_finite_layer_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.left_finite_layer_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.normalizing_pair_ranges' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.left_strip_transform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.right_strip_transform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.sandwich_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.conjugatePair_eq_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.finite_adjacent_flags' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.exists_nontrivial_isCompl_of_not_indecomposable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.map_subtype_lt_of_isCompl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.finite_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightDualCoordinate_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.dualTensorEvaluation_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.dualTensorInverse_pure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.balancedTensor_addHom_ext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.dualTensorInverse_evaluation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.dualTensorHomEquiv_pure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.dualTensorEvaluation_natural' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.dualTensorHomEquiv_natural' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.preinjectiveFamily_layer_zero_cases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.finiteIndecomposable_classification' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.notRational_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.gamma_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.matrix_mul_entries_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rat_matrix_entries_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.diag_entries_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightRecursion_entries_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftRecursion_entries_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.conjugatePair_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.conjugatePair_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.right_finite_layer_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.left_finite_layer_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.finiteRightModule_indecomposable_classification' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.finite_stabilizer_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.finiteRightStabilizer_mem_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.iteratedAddSpan_sup' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.iteratedAddSpan_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.iteratedAddSpan_expand' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.field_strip_left_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.field_strip_right_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.adjacent_add_groups' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.all_width_span_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.imageField_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.flagSystem_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.finite_family_layer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.globalPowerEval_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.normalized_element_in_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.globalPowerEval_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.globalPowerEval_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.chain_global_right_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.pair_layer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftGlobalStrip_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightGlobalStrip_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftGlobalStrip_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightGlobalStrip_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.global_strip_ranges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.left_image_strip_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.right_image_strip_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.left_image_strip_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.right_image_strip_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.chain_global_adjacent_flags' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.injectiveHomBicone_total' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.hom_finrank_from_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflection_cokernel_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightHom_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.homRepresentationBicone_total' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.homRepresentationProd_injective' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.homProd_inl_fst' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.homProd_inr_snd' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.homProd_inl_snd' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.homProd_inr_fst' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.homProd_total' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.rightHomMap_apply' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.HomRepresentationMorphism.ext' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.HomRepresentationMorphism.compose_identity' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.HomRepresentationMorphism.identity_compose' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.HomRepresentationMorphism.compose_assoc' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.one_two_indecomposable_dimension_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.indecomposable_homArrow_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.indecomposable_homTensorArrow_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.indecomposable_tensorAdjoint_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.indecomposable_tensorArrow_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.indecomposable_nonsimple_tensor_arrows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.linearIndependent_nat_of_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.linearIndependent_int_of_nat_shifts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.powerLeftCoefficient_smul' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.powerRightCoefficient_smul' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.integer_left_powers_linearIndependent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.integer_right_powers_linearIndependent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.extension_variable_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.extension_integer_left_powers_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.extension_integer_right_powers_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionBackward_source_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionBackward_dimension_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.inverseTensorReflection_dimension_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.inverseReflectionEndRingEquiv_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.invertibleTensorArrowMorphism_ext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.invertibleTensorArrowMorphism_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.invertibleTensorArrowMorphism_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.indecomposable_tensor_retract_isomorphism' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.ambientDualEvaluation_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.strip_right_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.iterated_right_dual_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.ambient_right_rank_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.iterated_right_dual_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.right_dimension_sequence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_right_dimension_sequence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangular_not_left_artinian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_triangular_not_left_artinian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangular_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangular_corner_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightMulH_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.witness_smul_fst' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.witness_smul_snd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangular_mul_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.sourceIdempotent_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.sourceScalar_smul_generator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.offDiagonal_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.offDiagonal_corner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.sourceIdempotent_smul_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftDual_not_countable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.witnessModule_not_countable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.countable_of_module_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.witnessModule_countable_of_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangular_not_left_pure_semisimple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_triangular_not_left_pure_semisimple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.all_left_powers_linearIndependent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftTail_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.power_mem_leftTail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.power_not_mem_next_leftTail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftTail_succ_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftTail_strictAnti' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_leftTail_strictAnti' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.chainU_succ_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.chain_local_power_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.normalized_conjugate_in_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumHalf_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreLevel_eq_quantumLevel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_t_eq_first_generator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.main_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.pure_semisimplicity_conjecture_fails' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.hasInverse_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.HasInverse.mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightCoeff_hasInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftCoeff_hasInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.HasInverse.mapRat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.diagUnit_hasInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.half_pow_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightStep_hasInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftStep_hasInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightRecursion_hasInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftRecursion_hasInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.moduleIndecomposable_of_isUnit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.indecomposable_of_moduleIndecomposable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerFixed_smul' depends on axioms: [propext]
+'QuantumFlags.corner_projection_idempotent' does not depend on any axioms
+'QuantumFlags.cornerFixedMap_apply' depends on axioms: [propext]
+'QuantumFlags.cornerFixedMap_surjective' depends on axioms: [propext]
+'QuantumFlags.poch_zero' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.poch_succ' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.commute_poch' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.poch_prefix' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.poch_inv_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.poch_right_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.poch_inverse_shift_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.poch_left_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.poch_intertwine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.right_strip_recursion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.left_strip_recursion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreLayer_increasing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreLayer_covers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreVariable_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreNormalizer_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreVariable_normalizes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreVariable_not_rational' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreLayerEquiv_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreNormalizer_fixes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreNormalizer_scales' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.ore_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.ore_remote' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.ore_distant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.ore_right_powers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.ore_left_powers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewPolynomial_countable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewExtension_countable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreLevel_countable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreAutomorphism_fixes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreAutomorphism_scales' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreGenerator_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreGenerator_notRational' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreLevel_left_powers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreLevel_right_powers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreMap_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreMap_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreMap_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreEmbed_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.oreEmbed_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.positiveDefect_classification_by_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.positiveDefect_classification' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.poch_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.gamma_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.chainU_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.chainU_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.layer_normalizes_generator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.chainU_coordinate_hasInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.power_not_mem_previous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.left_powers_linearIndependent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.left_dimension_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_left_dimension_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.module_sup_group' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.module_map_group' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftPowerSubmodule_group' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.power_mem_leftPowerSubmodule' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftPowerSubmodule_le_of_powers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftPowerSubmodule_eq_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.preinjectiveFamilyEndRingEquiv_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.preinjectiveRepresentationEndRingEquiv_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.preinjectiveFamily_dimension_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.preinjectiveFamily_indecomposable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.preinjectiveFamily_arrow_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.preinjectiveFamily_endo_division' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.preinjectiveRepresentation_dimension_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.preinjectiveRepresentation_pairwise_nonisomorphic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.preinjectiveFamily_hom_subsingleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.preinjectiveObject_indecomposable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.preinjectiveFamily_zero_object' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.preinjectiveFamily_successor_object' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.preinjectiveFamilyReflectionIso_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.preinjectiveRightModule_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.preinjectiveRightModule_finitelyPresented' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.preinjectiveRightModule_indecomposable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.preinjectiveRightModule_pairwise_nonisomorphic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.preinjectiveRightModuleEndRingEquiv_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.not_finitelyManyIndecomposables' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.restricted_smul' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.restricted_symm_smul' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.restricted_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.restricted_indecomposable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.everyModuleDirectSumFG_of_ringEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.finitelyManyIndecomposables_of_ringEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classModule_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classModule_finitelyPresented' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classModule_endRing_isUnit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classModule_nontrivial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classModule_indecomposable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classModule_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classModule_irredundant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.classModule_hom_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangular_module_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangular_right_pure_semisimple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.finitelyGenerated_triangular_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangular_not_finitelyManyIndecomposables' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.card_exponentBox' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.mem_exponentBox' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.card_shiftedBox' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.exists_shiftedBox' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.shiftedBox_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.exists_box_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.monomialSpan_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.monomialSpan_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.monomialSpan_mul_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.exists_monomialSpan_of_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumLaurent_ore_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumLaurent_ore_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumLaurent_two_sided_ore_domain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewExtension_subfield_eq_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumStep_mem_laurent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumLaurent_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumLaurentFractionHom_numerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumLaurent_fraction_field' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumGenerators_last' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumGenerators_castSucc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumMonomial_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumMonomial_eq_prod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumMonomial_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumExponent_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumExponent_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumExponent_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumExponent_succ_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumAutomorphism_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.ringAut_zpow_of_scaling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumAutomorphism_zpow_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumMonomial_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumMonomial_linearIndependent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumGenerators_eq_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumMonomial_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumMonomial_span_mul_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumLaurentSubalgebra_eq_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumLaurentBasis_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumLaurentSubalgebra_is_quantumTorus' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumAutomorphism_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumGenerator_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumGenerator_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumGenerator_pow_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumGenerator_zpow_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.mul_quantumGenerator_zpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumGenerator_integer_left_powers_independent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.quantumGenerator_integer_right_powers_independent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.quantumAutomorphism_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumAutomorphism_fixes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumAutomorphism_scales' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.quantumGenerator_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reciprocalValue_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reciprocalValue_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reciprocalValue_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reciprocalValue_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reciprocalHom_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reciprocalEquiv_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_reciprocal_isomorphism' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionCounitTargetMap_mk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionCounitTargetMap_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionCounitTargetMap_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionCounit_left_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionCounit_right_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorReflection_positive_defect_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionForward_target_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionForward_dimension_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflection_map_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflection_map_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionEndRingEquiv_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionEndRingEquiv_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflection_equivalence_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionFunctor_map_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionForward_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionBackward_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionForwardMap_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionForwardMap_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionBackwardMap_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionBackwardMap_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionCounit_natural' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflection_identity_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflection_trivial_idempotents_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflection_indecomposable_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.inverseReflection_indecomposable_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionForward_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionBackward_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionCokernelMap_mk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionUnitSourceMap_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionUnitSourceMap_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionUnit_left_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionUnit_right_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reflectionUnit_natural' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorIso_source_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorIso_target_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.positiveSource_not_simpleTarget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.positiveTarget_not_simpleSource' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.bimoduleTensorRepresentation_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.HomRepresentationMorphism.add_source' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.HomRepresentationMorphism.add_target' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.HomRepresentationMorphism.zero_source' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.HomRepresentationMorphism.zero_target' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.HomRepresentationMorphism.neg_source' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.HomRepresentationMorphism.neg_target' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.TensorRepresentationMorphism.add_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.TensorRepresentationMorphism.add_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.TensorRepresentationMorphism.zero_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.TensorRepresentationMorphism.zero_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.TensorRepresentationMorphism.neg_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.TensorRepresentationMorphism.neg_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.homArrow_injective_of_retract' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.tensorArrow_surjective_of_retract' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.injectiveHomInclusion_retract_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.injectiveHom_ambient_indecomposable_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.surjectiveDualTensorInclusion_retract_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.surjectiveDualTensor_ambient_indecomposable_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.reflection_ambient_indecomposable_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.inverseReflection_ambient_indecomposable_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.homRepresentationSplitBicone_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.indecomposable_retract_isomorphism' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.faithful_isZero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.retract_closed_indecomposable_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangular_diagonal_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangular_right_artinian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_triangular_right_artinian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangular_right_noetherian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangular_finite_presentation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_triangular_artinian_asymmetry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightSubfield_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightWideLinear_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.flag_right_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.right_index_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.right_index_one_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.consecutive_indices_force_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.iteratedAddSpan_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightFlagSpan_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightFlagSpan_le_of_powers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightFlagSpan_top_finrank_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.scalarLine_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.hasKernelLine_iff_not_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.hasCokernelLine_iff_not_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.simpleSource_source_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.simpleSource_target_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.simpleTarget_source_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.simpleTarget_target_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorSimpleSource_dimension_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorSimpleTarget_dimension_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.simpleSourceEndRingHom_bijective' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.simpleSourceEndRingEquiv_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.simpleTargetEndRingHom_bijective' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.simpleTargetEndRingEquiv_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.homFromSimpleSource_eq_zero' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.tensorHomFromSimpleSource_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorHomToSimpleTarget_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.simpleSource_indecomposable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.simpleTarget_indecomposable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorSimpleSourceEndRingEquiv_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorSimpleTargetEndRingEquiv_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorSimpleSource_indecomposable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorSimpleTarget_indecomposable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.simpleSourceSummand_iff_kernelLine' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.simpleTargetSummand_iff_cokernelLine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.no_simpleSourceSummand_iff_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.no_simpleTargetSummand_iff_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.no_simpleSourceSummand_tensor_iff_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.no_simpleTargetSummand_tensor_iff_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_coeff_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_ext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_support_le_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_coeff_above_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_leading_coefficient_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_coeff_mul_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_top_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_phi_iterate_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_mul_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_product_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_polynomial_variable_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_evaluation_power_relation' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.skewEvaluate_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewEvaluate_C' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewEvaluate_X' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_ringHom_ext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewScaleHom_C' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewScaleHom_X' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewScaleHom_inverse_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewScalingAut_C' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewScalingAut_X' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_move_right' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.skew_move_power' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.skew_poch_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.inverse_conjugate_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.conjugated_power_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.automorphismAction_phi' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.extension_variable_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.extensionScalingAut_constants' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.extensionScalingAut_variable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.extensionVariable_notRational' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.extension_left_powers_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.extension_right_powers_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewOfCoefficients_coeff_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewOfCoefficients_coeff_above' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.boundedSkew_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.boundedSkew_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.boundedSkew_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_common_left_multiple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewLift_numerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_fractionHom_ext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewAutoHom_numerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewAutoHom_inverse_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.extendSkewAut_numerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.fractionScalingAut_constants' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.fractionScalingAut_variable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_ore_condition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewNumerator_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewConstants_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_variable_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewOfCoefficients_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_left_power_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_right_power_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_left_powers_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_right_powers_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewVariable_not_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skewVariable_notRational' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_coeff_mul_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_phi_iterate_eq_aut' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.boundedSkewRight_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.boundedSkewRight_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.boundedSkewRight_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.skew_common_right_multiple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.automorphism_skew_two_sided_ore' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.splitKernelProjection_comp_section' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.splitKernelProjection_comp_inclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.splitKernelProjection_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.strip_right_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.strip_zero_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.strip_add_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.strip_neg_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.strip_pair_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.stripCoeffs_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.firstColumn_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.secondColumn_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.reciprocalValue_of_expansions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.variable_mul_reciprocalValue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.pairDualLinear_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.stripDualEquiv_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.strip_right_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.strip_left_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightStripLinear_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftStripLinear_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightStripEquiv_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftStripEquiv_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.leftTripleEval_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rightTripleEval_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.one_mem_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.variable_mem_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.strip_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.strip_eq_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.strip_left_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.strip_right_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.strip_left_stabilizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.strip_right_stabilizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_strip_stabilizers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorMorphismToHom_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorMorphismToHom_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorReflection_dimension_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorReflectionEquivalence_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorReflection_object' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.inverseTensorReflection_object' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorReflection_ambient_indecomposable_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.inverseTensorReflection_ambient_indecomposable_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.tensorReflectionEndRingEquiv_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.inverseTensorReflectionEndRingEquiv_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorReflectionRecoverIso_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorHomCategoryEquivalence_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorRepresentation_target_finrank_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorRepresentation_source_finrank_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.one_two_representation_dimension_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.TensorRepresentationMorphism.ext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.TensorRepresentationMorphism.compose_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.TensorRepresentationMorphism.identity_compose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.TensorRepresentationMorphism.compose_assoc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.homRepresentationToTensor_pure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorHom_arrow_roundtrip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.homTensor_arrow_roundtrip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorSimpleSource_toHom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorSimpleTarget_toHom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorRepresentation_retraction_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorSimpleSourceSummand_iff_hom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.tensorSimpleTargetSummand_iff_hom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.no_tensorSimpleSourceSummand_iff_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.no_tensorSimpleTargetSummand_iff_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangularCrossHom_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangularCrossHom_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangular_ext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.corner_units_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.source_target_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.target_source_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerDecomposition_components' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangular_action_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.homRepresentation_rightModule_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangularMapFromArrows_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.ambientRepresentationArrow_morphism' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.homRepresentationModuleMap_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.homRepresentationModuleMap_compose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerHomRepresentation_arrow_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerHomRepresentation_arrow_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerArrow_natural' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerHomRepresentationMap_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerHomRepresentationMap_compose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerModuleEquiv_natural' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.offDiagonal_mem_cornerLeftIdeal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerLeftIdeal_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.cornerLeftIdeal_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.triangular_left_ideal_chain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_triangular_left_ideal_chain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.two_corner_submodule_le_iff' depends on axioms: [propext, Quot.sound]
+'QuantumFlags.artinian_of_two_corners' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.noetherian_of_two_corners' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.inverseIterate_scaled_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_coordinate_matrix_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_coordinate_base_hasInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.wide_change_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.wide_basis_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actualWideRecursion_hasInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.weightedAutomorphismCoordinates_hasInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.conjugated_power_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.local_right_power_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.FullInverse.mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.FullInverse.map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.fullInverse_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.FullInverse.mulVec_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.rationalVandermonde_hasInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.wideVandermonde_hasInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.wideDenominator_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.wideDenominator_hasInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.wideDenominatorInv_hasInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.wideDenominator_cancels' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.wideCoefficientDiagonal_hasInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.wideRecursion_hasInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.wideRecursion_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.wideVandermonde_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.scaled_normalizes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_coordinate_matrix_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.actual_coordinate_step_hasInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.indecomposable_invertibleArrow_isCanonicalProjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.zeroDefect_tensorArrow_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuantumFlags.zeroDefect_indecomposable_isCanonicalProjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.equalDimension_indecomposable_source_finrank_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'QuantumFlags.nonsimple_zeroDefect_classification' depends on axioms: [propext, Classical.choice, Quot.sound]

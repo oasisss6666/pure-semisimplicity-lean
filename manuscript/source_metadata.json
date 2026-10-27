@@ -1,0 +1,101 @@
+{
+  "source_path": "<original manuscript; local path removed>",
+  "sha256": "5620351c8e5eb777f2751dc7e9621b7ef90fd2951457f16f3e860cc7369d5f6b",
+  "line_count": 466,
+  "previous_source_path": "<original manuscript; local path removed>",
+  "previous_sha256": "8c6feb1611f3967675ff7e829158f7060176f6cdb23c9590170e84d38dbacc32",
+  "version_notes": [
+    "Core B/F construction, stabilizers and actual iterated right duals retained.",
+    "Representation/reflection/decomposition arguments moved to Sections 2-3.",
+    "The final left obstruction now uses a descending chain of left ideals and the Chase theorem; it is a different proof obligation.",
+    "Detailed old appendices are not stated in the shortened article.",
+    "Earlier Rethlas review applies to the previous source hash only."
+  ],
+  "declarations": [
+    {
+      "kind": "theorem",
+      "label": "thm:main",
+      "line": 55
+    },
+    {
+      "kind": "lemma",
+      "label": "lem:adj",
+      "line": 85
+    },
+    {
+      "kind": "lemma",
+      "label": "lem:artinian",
+      "line": 101
+    },
+    {
+      "kind": "lemma",
+      "label": "lem:split",
+      "line": 115
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:reflect",
+      "line": 123
+    },
+    {
+      "kind": "lemma",
+      "label": "lem:decomp",
+      "line": 139
+    },
+    {
+      "kind": "lemma",
+      "label": "lem:skew",
+      "line": 159
+    },
+    {
+      "kind": "lemma",
+      "label": "lem:qtorus",
+      "line": 175
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:class",
+      "line": 212
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:pss",
+      "line": 225
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:flags",
+      "line": 237
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:stab",
+      "line": 267
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:recip",
+      "line": 278
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:dimseq",
+      "line": 300
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:B",
+      "line": 340
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:F",
+      "line": 375
+    }
+  ],
+  "initial_short_sha256": "3c83013e6332098f1933b14d03d21a00732bbbf19c41b7457cb1ca1c121fad25",
+  "latest_update_notes": [
+    "Only citations, attribution remarks and bibliography were changed after the initial short snapshot.",
+    "All 16 labelled statement bodies and all 16 proof bodies were compared verbatim and are unchanged."
+  ]
+}

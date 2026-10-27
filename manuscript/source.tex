@@ -1,0 +1,466 @@
+\documentclass[11pt,a4paper]{amsart}
+\usepackage[margin=2.7cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[hidelinks]{hyperref}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\numberwithin{equation}{section}
+
+\newcommand{\Ad}{\operatorname{Ad}}
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\End}{\operatorname{End}}
+\newcommand{\coker}{\operatorname{coker}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\Frac}{\operatorname{Frac}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathcal{C}}
+\newcommand{\Ksf}{\mathsf{K}}
+\newcommand{\Asf}{\mathsf{A}}
+\newcommand{\Msf}{\mathsf{M}}
+\newcommand{\Nsf}{\mathsf{N}}
+\newcommand{\Csf}{\mathsf{C}}
+\newcommand{\Dsf}{\mathsf{D}}
+\newcommand{\rr}{\mathrm{r}}
+
+\title{A counterexample to the pure semisimplicity conjecture}
+\date{}
+
+\subjclass[2020]{16G60 (primary); 16D90, 16K40, 16S36 (secondary)}
+\keywords{pure semisimple ring, pure semisimplicity conjecture, division ring extension, dimension sequence, quantum torus}
+
+\begin{document}
+
+\begin{abstract}
+A ring is right pure semisimple if every right module is a direct sum of finitely generated modules, and the pure semisimplicity conjecture asserts that every such ring is of finite representation type. A division ring extension $H\subseteq T$ is constructed such that the bimodule ${}_HT_T$ has right dimension sequence $(1,2,2,2,\dots)$ and $T$ is infinite-dimensional as a left $H$-space. Here $T$ is the union of the fraction division rings of the nearest-neighbour quantum Laurent algebras with parameter $1/2$, and $H$ is the image of $T$ under a compatible family of conjugations. The extension is controlled by right bases of every length and by two-sided flags of adjacent division subrings, which identify all iterated right duals up to explicit twists. It follows that the triangular ring $\left(\begin{smallmatrix}H&T\\0&T\end{smallmatrix}\right)$ is right pure semisimple but neither left pure semisimple nor of finite representation type, so that the pure semisimplicity conjecture fails.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+
+Let $R$ be a ring. Recall that $R$ is \emph{right pure semisimple} if every right $R$-module is a direct sum of finitely generated right $R$-modules \cite{Si77}. Auslander \cite{Au} proved that every right pure semisimple Artin algebra is of finite representation type, and that a right pure semisimple ring is of finite representation type if and only if it is also left pure semisimple. The assertion that every right pure semisimple ring is of finite representation type is known as the \emph{pure semisimplicity conjecture}. By the work of Simson \cite{Si81,Si83} and Herzog \cite{He}, it suffices to verify the conjecture for hereditary rings, and the conjecture holds for rings satisfying a polynomial identity. Herzog \cite{He} showed moreover that a counterexample, if one exists, may be chosen as a triangular matrix ring over two division rings.
+
+In the opposite direction, Simson \cite{Si95,Si97,Si00} translated the existence of a counterexample into a generalized Artin problem for division ring extensions, formulated in terms of the dimensions of iterated dual bimodules. The classical Artin problem, which asks for a division ring extension whose left and right dimensions differ, was solved by Cohn \cite{Co} and Schofield \cite{Sc85}, whereas the generalized problem requires the control of infinitely many dual bimodules at once. Garc\'{\i}a \cite{Ga14,Ga18} characterized the smallest potential counterexamples, and \v{S}aroch \cite{Sa} called them squared small counterexamples: if $G\subseteq F$ is a division ring extension such that the bimodule ${}_GF_F$ has right dimension sequence $(1,2,2,2,\dots)$ and $\dim{}_GF=\infty$, then the ring $\left(\begin{smallmatrix}G&F\\0&F\end{smallmatrix}\right)$ is right pure semisimple and not of finite representation type \cite{Si97}, \cite[Section 6]{Ga18}, \cite[Section 1]{Sa}. Using the methods of Schofield \cite{Sc85,Sc87}, \v{S}aroch \cite{Sa} obtained an extension with the finite right dimension sequence $(1,2,2,2,1,4)$, and observed that extensions with the finite sequences $(1,2,\dots,2,1,n)$ are not known for $n\ge5$. No extension of the required infinite type has been known.
+
+While the constructions above rely on universal localization and coproducts of simple artinian rings, the purpose of the present article is to construct a squared small counterexample explicitly, inside a union of quantum Laurent division rings. Let $T$ be a division ring, let $t\in T$, and let $(H_r)_{r\ge0}$ be a family of division subrings of $T$, not necessarily nested, with $H_0=T$ and $H_1=H$. Consider the following two conditions:
+\begin{align}
+T&=\textstyle\bigoplus_{i=0}^{r}t^iH_r\qquad(r\ge1),\tag{B}\\
+H_p+H_pt&=H_{p+1}+tH_{p+1}\qquad(p\ge1).\tag{F}
+\end{align}
+Condition (B) says that $1,t,\dots,t^r$ is a right basis of $T$ over $H_r$, and condition (F) says that $H_p$ and $H_{p+1}$ span the same strip from the left and from the right, respectively. The main result of the paper may then be stated as follows.
+
+\begin{theorem}\label{thm:main}
+Let $T$ be the union of the fraction division rings of the nearest-neighbour quantum Laurent algebras over $\Q$ with relations $t_{i+1}t_i=\frac12t_it_{i+1}$, let $t=t_1$, and let $H_r=\kappa_r(T)$ be the division subrings defined in Section~\ref{sec:chain}. Then conditions \textup{(B)} and \textup{(F)} hold. Consequently, the bimodule ${}_HT_T$ has right dimension sequence $(1,2,2,2,\dots)$ and $\dim{}_HT=\infty$, and the ring
+\[
+R=\begin{pmatrix}H&{}_HT_T\\0&T\end{pmatrix}
+\]
+is right pure semisimple, but it is neither left pure semisimple nor of finite representation type. In particular, the pure semisimplicity conjecture fails.
+\end{theorem}
+
+The proof of Theorem~\ref{thm:main} rests on two independent parts. The first part, carried out in Section~\ref{sec:flags}, uses only conditions (B) and (F). Essential to it, and instrumental in the identification of the iterated duals, is a divisibility argument: a left relation among the powers of $t$ over some $H_p$ would produce a division subring of $T$ containing both $H_r$ and $H_{r+1}$ for some $r$, whose right indices $r+1$ and $r+2$ in $T$ are coprime (Proposition~\ref{prop:flags}). It follows that $\dim{}_HT=\infty$, and that the iterated right duals of ${}_HT_T$ are the strips $H_k\oplus H_kt$, twisted by explicit isomorphisms $\sigma_k\colon H_k\to H_{k+2}$ (Theorem~\ref{thm:dimseq}). The second part, carried out in Section~\ref{sec:chain}, is the only place where the quantum relations are used. It verifies (B) and (F) by means of ordered coordinate matrices, whose invertibility reduces to that of a Vandermonde matrix and of two $2\times2$ matrices over $\Q$.
+
+Sections~\ref{sec:prelim} and \ref{sec:crit} consist of known or elementary material: references are given at each statement where a source is available, and the proofs are included only to keep the paper self-contained. In particular, Section~\ref{sec:crit} proves that the right dimension sequence $(1,2,2,2,\dots)$ yields a right pure semisimple ring with infinitely many finitely generated indecomposable right modules, which is due to Simson \cite{Si97}, by means of the reflection functors of Dlab and Ringel \cite{DR} and Simson \cite{Si81}. The results of Sections~\ref{sec:flags} and \ref{sec:chain}, and hence Theorem~\ref{thm:main}, are new. Apart from Ore's theorem on division rings of fractions \cite{Co,GW} and the theorem of Chase that pure semisimple rings are artinian \cite{Ch}, all results used in the proof of Theorem~\ref{thm:main} are proved in the paper.
+
+The paper is organized as follows. Section~\ref{sec:prelim} collects preliminaries on pure semisimple rings, dual bimodules, representations of triangular matrix rings, skew polynomial rings and quantum Laurent algebras. Section~\ref{sec:crit} shows that the right dimension sequence $(1,2,2,2,\dots)$ forces right pure semisimplicity. Section~\ref{sec:flags} derives this dimension sequence and the infinite left dimension from conditions (B) and (F). Section~\ref{sec:chain} constructs the quantum chain and verifies (B) and (F). Section~\ref{sec:proof} completes the proof of Theorem~\ref{thm:main}.
+
+\section{Preliminaries}\label{sec:prelim}
+
+All rings are associative with identity, division subrings share the identity of the ambient ring, and modules are unital. Maps are composed as $ab=a\circ b$, and $\Ad(c)(x)=cxc^{-1}$. For a division ring $D$, the dimension of a right (respectively, left) $D$-space $V$ is denoted by $\dim V_D$ (respectively, $\dim{}_DV$). If $D\subseteq E\subseteq F$ are division rings and $[F:D]_{\rr}=\dim F_D$ is finite, then $[F:E]_{\rr}\le[F:D]_{\rr}$, since a right $E$-independent subset of $F$ is right $D$-independent, and multiplying right bases yields $[F:D]_{\rr}=[F:E]_{\rr}[E:D]_{\rr}$; see \cite{Co}.
+
+\subsection{Pure semisimple rings}
+
+Let $R$ be a ring. A module $M$ is \emph{finitely presented} if there is an exact sequence $R^m\to R^n\to M\to0$ with $m$ and $n$ finite. The ring $R$ is \emph{right pure semisimple} if every right $R$-module is a direct sum of finitely generated right $R$-modules, and \emph{left pure semisimple} rings are defined dually. By a theorem of Chase \cite{Ch}, a right (respectively, left) pure semisimple ring is right (respectively, left) artinian, so that its finitely generated right (respectively, left) modules are finitely presented. Hence $R$ is right pure semisimple if and only if every right $R$-module is a direct sum of finitely presented right $R$-modules, and the two formulations of pure semisimplicity in the literature agree. The ring $R$ is \emph{of finite representation type} if there are only finitely many isomorphism classes of finitely generated indecomposable right $R$-modules and only finitely many isomorphism classes of finitely generated indecomposable left $R$-modules.
+
+\subsection{Dual bimodules}
+
+Let $A$ and $B$ be division rings and let ${}_AN_B$ be a bimodule with $\dim N_B<\infty$. The \emph{right dual} of $N$ is the $B$-$A$-bimodule $N^{\rr}=\Hom_B(N_B,B_B)$, with $(b\phi a)(x)=b\phi(ax)$. The coordinate functions of a right basis of $N$ form a left basis of $N^{\rr}$, so that $\dim{}_BN^{\rr}=\dim N_B$. If all iterated right duals $N^{\rr},N^{\rr\rr},\dots$ are finite-dimensional on the right, the sequence
+\[
+(\dim N_B,\ \dim(N^{\rr})_A,\ \dim(N^{\rr\rr})_B,\ \dots)
+\]
+is called the \emph{right dimension sequence} of $N$; see \cite{Si97,Sa}.
+
+\begin{lemma}[{see \cite{DR,Si81}}]\label{lem:adj}
+For a right $B$-module $Y$, the map $Y\otimes_BN^{\rr}\to\Hom_B(N,Y)$, $y\otimes\phi\mapsto(n\mapsto y\phi(n))$, is an isomorphism of right $A$-modules, natural in $Y$, where $(f\cdot a)(n)=f(an)$.
+\end{lemma}
+
+\begin{proof}
+If $n_1,\dots,n_d$ is a right basis of $N$ over $B$ with coordinate functions $\phi_1,\dots,\phi_d\in N^{\rr}$, the inverse map is $f\mapsto\sum_if(n_i)\otimes\phi_i$. The compatibility with the right actions and the naturality hold term by term.
+\end{proof}
+
+\subsection{Representations of triangular matrix rings}\label{subsec:rep}
+
+The following description of modules over triangular matrix rings is standard; see \cite{FGR} and \cite{DR}. Let ${}_AN_B$ be as above, and let $R_N=\left(\begin{smallmatrix}A&N\\0&B\end{smallmatrix}\right)$. A \emph{representation} of $N$ is a triple $M=(X,Y,\gamma)$ consisting of a right $A$-space $X$, a right $B$-space $Y$ and a $B$-linear map $\gamma\colon X\otimes_AN\to Y$, and a morphism $(X,Y,\gamma)\to(X',Y',\gamma')$ is a pair $(u,v)$ of linear maps $u\colon X\to X'$ and $v\colon Y\to Y'$ with $v\gamma=\gamma'(u\otimes1)$. The rule
+\[
+(x,y)\begin{pmatrix}a&n\\0&b\end{pmatrix}=(xa,\ \gamma(x\otimes n)+yb)
+\]
+identifies representations of $N$ with right $R_N$-modules, and morphisms of representations with module homomorphisms; conversely, a right $R_N$-module $M$ yields the representation $(Me_{11},Me_{22},\gamma)$ with $\gamma(x\otimes n)=x\left(\begin{smallmatrix}0&n\\0&0\end{smallmatrix}\right)$. The pair $(\dim X_A,\dim Y_B)$ is called the \emph{dimension vector} of $M$, and the representations $(A,0,0)$ and $(0,B,0)$ are called the \emph{simple source} and the \emph{simple target}, respectively.
+
+\begin{lemma}[{see \cite{FGR}}]\label{lem:artinian}
+The ring $R_N$ is right artinian. A right $R_N$-module is finitely generated if and only if its dimension vector is finite, and every finitely generated right $R_N$-module is finitely presented.
+\end{lemma}
+
+\begin{proof}
+The submodules of a representation $(X,Y,\gamma)$ are the representations $(X',Y',\gamma')$ with $X'\subseteq X$, $Y'\subseteq Y$, $\gamma(X'\otimes N)\subseteq Y'$ and $\gamma'$ the restriction of $\gamma$. Hence, in a representation with finite dimension vector $(a,b)$, every strictly monotone chain of submodules has length at most $a+b$. As $R_N=e_{11}R_N\oplus e_{22}R_N$ has dimension vector $(1,\dim N_B)+(0,1)$, the ring $R_N$ is right artinian. A finitely generated module is a quotient of some $R_N^n$ and so has finite dimension vector; conversely, the union of bases of $X$ and $Y$ generates $(X,Y,\gamma)$. If $M$ is finitely generated, the kernel of an epimorphism $R_N^n\to M$ has finite dimension vector, hence is finitely generated, and so $M$ is finitely presented.
+\end{proof}
+
+For a representation $M=(X,Y,\gamma)$, the tensor-hom adjunction and Lemma~\ref{lem:adj} identify $\gamma$ with the $A$-linear map
+\[
+\beta_M\colon X\to Y\otimes_BN^{\rr}\cong\Hom_B(N,Y),\qquad \beta_M(x)(n)=\gamma(x\otimes n).
+\]
+By naturality, a pair $(u,v)$ is a morphism $M\to M'$ if and only if $(v\otimes1)\beta_M=\beta_{M'}u$.
+
+\begin{lemma}[{see \cite{DR,Si81}}]\label{lem:split}
+A representation $M=(X,Y,\gamma)$ of $N$ has no simple source summand if and only if $\beta_M$ is injective, and it has no simple target summand if and only if $\gamma$ is surjective.
+\end{lemma}
+
+\begin{proof}
+If $X'$ is a complement of $\ker\beta_M$ in $X$, then $\gamma$ vanishes on $\ker\beta_M\otimes N$, and so $M=(\ker\beta_M,0,0)\oplus(X',Y,\gamma')$ with $\gamma'$ the restriction of $\gamma$. Conversely, the source space of a simple source summand of $M$ is contained in $\ker\beta_M$. Dually, if $Y''$ is a complement of the image $\gamma(X\otimes N)$ in $Y$, then $M=(X,\gamma(X\otimes N),\gamma)\oplus(0,Y'',0)$. Conversely, if $M$ has a simple target summand, the image of $\gamma$ is contained in the target space of a complementary summand, and so $\gamma$ is not surjective.
+\end{proof}
+
+\begin{proposition}[{\cite{DR}, \cite{Si81}}]\label{prop:reflect}
+Suppose that $d=\dim(N^{\rr})_A$ is finite. For a representation $M=(X,Y,\gamma)$ of $N$ with $\beta_M$ injective, let
+\[
+\Phi(M)=(Y,\coker\beta_M,\pi_M),
+\]
+the representation of $N^{\rr}$ in which $\pi_M\colon Y\otimes_BN^{\rr}\to\coker\beta_M$ is the projection. For a representation $L=(Y,Z,\delta)$ of $N^{\rr}$ with $\delta$ surjective, let $\Phi^-(L)=(\ker\delta,Y,\gamma_L)$, where $\gamma_L$ corresponds to the inclusion $\ker\delta\to Y\otimes_BN^{\rr}$. Then $\Phi$ and $\Phi^-$ extend to mutually inverse equivalences between the full subcategory of representations of $N$ without simple source summands and the full subcategory of representations of $N^{\rr}$ without simple target summands. In particular, they preserve indecomposability and endomorphism rings. If $M$ has dimension vector $(a,b)$, then $\Phi(M)$ has dimension vector $(b,db-a)$.
+\end{proposition}
+
+\begin{proof}
+By Lemma~\ref{lem:split}, the two subcategories consist of the representations with injective $\beta$ and with surjective arrow, respectively; moreover, $\Phi(M)$ has surjective arrow, and $\beta_{\Phi^-(L)}$ is the inclusion of $\ker\delta$, hence injective. Let $(u,v)\colon M\to M'$ be a morphism. Since $(v\otimes1)\beta_M=\beta_{M'}u$, the map $v\otimes1$ induces a map $w\colon\coker\beta_M\to\coker\beta_{M'}$, and $\Phi(u,v)=(v,w)$ is a morphism. Dually, a morphism $(v,w)\colon L\to L'$ satisfies $w\delta=\delta'(v\otimes1)$, so that $v\otimes1$ restricts to a map $u\colon\ker\delta\to\ker\delta'$, and $\Phi^-(v,w)=(u,v)$ is a morphism. The map $\beta_M$ induces an isomorphism from $X$ onto $\ker\pi_M$, which yields a natural isomorphism $M\cong\Phi^-\Phi(M)$, and $\delta$ induces an isomorphism from the cokernel of the inclusion $\ker\delta\to Y\otimes_BN^{\rr}$ onto $Z$, which yields a natural isomorphism $\Phi\Phi^-(L)\cong L$. The formula for the dimension vector follows from $\dim(Y\otimes_BN^{\rr})_A=db$.
+\end{proof}
+
+\subsection{A decomposition lemma}
+
+The following lemma is elementary, and its proof is included for completeness.
+
+\begin{lemma}\label{lem:decomp}
+Let $\Lambda$ be a right artinian ring, and let $(X_\alpha)_{\alpha\in I}$, indexed by a well-ordered set $I$, be representatives of the isomorphism classes of finitely generated indecomposable right $\Lambda$-modules. Suppose that each $E_\alpha=\End(X_\alpha)$ is a division ring and that $\Hom(X_\alpha,X_\beta)=0$ whenever $\alpha<\beta$. Then every right $\Lambda$-module is isomorphic to a direct sum of modules $X_\alpha$.
+\end{lemma}
+
+\begin{proof}
+Every finitely generated module has finite length, and so is a finite direct sum of modules $X_\alpha$. Let $M$ be a right $\Lambda$-module. For $\alpha\in I$, let $W_\alpha\subseteq\Hom(X_\alpha,M)$ be the right $E_\alpha$-subspace of maps factoring through finite direct sums of modules $X_\beta$ with $\beta<\alpha$. Choose maps $f_{\alpha i}$, $i\in J_\alpha$, whose classes form a right $E_\alpha$-basis of $\Hom(X_\alpha,M)/W_\alpha$, and let
+\[
+\pi\colon B_M=\textstyle\bigoplus_{\alpha\in I}X_\alpha^{(J_\alpha)}\to M
+\]
+be the map given by the $f_{\alpha i}$. By transfinite induction on $\alpha$, every map $X_\alpha\to M$ lifts along $\pi$: modulo $W_\alpha$ it is a finite combination of the $f_{\alpha i}$, and the remainder factors through finitely many earlier modules, whose maps lift by the induction hypothesis. Hence every map from a finitely generated module to $M$ lifts along $\pi$, and in particular $\pi$ is surjective.
+
+Let $h\colon X_\alpha\to\ker\pi$. The components of $h$ in $B_M$ are finite in number, those of type later than $\alpha$ vanish, and those of type $\alpha$ are elements $d_i\in E_\alpha$. Reducing $\pi h=0$ modulo $W_\alpha$ yields $\sum_i\overline{f_{\alpha i}}d_i=0$, so that all $d_i$ vanish. Thus every map $X_\alpha\to\ker\pi$ has components only of types strictly earlier than $\alpha$.
+
+Suppose that $0\ne z\in\ker\pi$. Let $B_0$ be a finite coordinate direct summand of $B_M$ containing $z$, let $p_0\colon B_0\to B_0/K$ be the quotient by $K=\ker(\pi|_{B_0})$, and lift the induced map $B_0/K\to M$ to $w\colon B_0/K\to B_M$. Then $e=\iota-wp_0\colon B_0\to B_M$, where $\iota$ is the inclusion, satisfies $\pi e=0$ and $e(z)=z$, and so every component of $e$ strictly lowers types. Let $B_1\supseteq B_0$ be a finite coordinate direct summand containing $e(B_0)$, and extend $e$ by zero on the complementary coordinates to an endomorphism $\bar e$ of $B_1$. As $B_1$ involves only finitely many types, $\bar e$ is nilpotent, which contradicts $\bar e(z)=z$. Therefore $\pi$ is an isomorphism.
+\end{proof}
+
+\subsection{Skew polynomial rings}\label{subsec:skew}
+
+Let $D$ be a division ring and let $\tau$ be an automorphism of $D$. The skew polynomial ring $D[v;\tau]$ is the ring of polynomials $\sum_hv^ha_h$ with $a_h\in D$, multiplied according to the rule $va=\tau(a)v$, or equivalently $av=v\tau^{-1}(a)$. As $\tau$ is bijective, the powers of $v$ form a basis of $D[v;\tau]$ both as a left and as a right $D$-space. Recall that a domain $S$ is a two-sided Ore domain if $fS\cap gS\ne0$ and $Sf\cap Sg\ne0$ for all nonzero $f,g\in S$. By Ore's theorem, such a domain has a division ring of fractions $\Frac(S)$, and every injective ring homomorphism from $S$ to a division ring extends uniquely to $\Frac(S)$ \cite{Co,GW}.
+
+\begin{lemma}[{see \cite{Co,GW}}]\label{lem:skew}
+The ring $D[v;\tau]$ is a two-sided Ore domain. In its division ring of fractions $D(v;\tau)=\Frac(D[v;\tau])$, distinct powers $v^h$, $h\in\mathbb Z$, are linearly independent over $D$ on both sides.
+\end{lemma}
+
+\begin{proof}
+If $f$ and $g$ have leading terms $v^ha$ and $v^kb$ with $a,b\ne0$, then the leading term of $fg$ is $v^{h+k}\tau^{-k}(a)b\ne0$, so that $D[v;\tau]$ is a domain. Let $f,g$ be nonzero of degree at most $m$. The right $D$-linear map $(X,Y)\mapsto fX-gY$, from pairs of polynomials of degree at most $m$ to polynomials of degree at most $2m$, has a domain of dimension $2m+2$ and a codomain of dimension $2m+1$. Hence it has a nonzero kernel element $(X,Y)$, and both $X$ and $Y$ are nonzero since $D[v;\tau]$ is a domain. Thus $fD[v;\tau]\cap gD[v;\tau]\ne0$, and the left condition follows in the same way from the left $D$-linear map $(X,Y)\mapsto Xf-Yg$. Finally, a relation $\sum_hv^ha_h=0$ (respectively, $\sum_ha_hv^h=0$) with finitely many $h\in\mathbb Z$ becomes a relation in $D[v;\tau]$ after right (respectively, left) multiplication by a suitable power of $v$, whence all $a_h$ vanish.
+\end{proof}
+
+\subsection{Quantum Laurent division rings}\label{subsec:qtorus}
+
+Let $q\in\Q^\times$. For $n\ge1$, the \emph{nearest-neighbour quantum Laurent algebra} $\mathcal A_n$ is the $\Q$-algebra with basis $M_a=t_1^{a_1}\cdots t_n^{a_n}$, $a\in\mathbb Z^n$, and multiplication
+\begin{equation}\label{eq:qtorus}
+M_aM_b=q^{\sum_{i=1}^{n-1}a_{i+1}b_i}M_{a+b}.
+\end{equation}
+The exponent is bilinear in $(a,b)$, so that the multiplication is associative. Moreover, $t_{i+1}t_i=qt_it_{i+1}$, and $t_i,t_j$ commute whenever $|i-j|\ge2$. The algebras $\mathcal A_n$ are quantum tori in the sense of \cite{BG,GW}. The following standard lemma realizes the division rings of fractions of these algebras as iterated skew rational function division rings, which is the form used in Section~\ref{sec:chain}.
+
+\begin{lemma}[{see \cite{BG,GW}}]\label{lem:qtorus}
+Put $T_0=\Q$ and $T_1=\Q(t_1)$. For every $n\ge1$ there is a unique automorphism $\tau_n$ of $T_n$ that fixes $T_{n-1}$ and sends $t_n$ to $qt_n$, so that $T_{n+1}=T_n(t_{n+1};\tau_n)$ defines an increasing chain of division rings. Moreover, the following hold.
+\begin{enumerate}
+\item[(1)] Writing $v=t_{n+1}$, one has
+\begin{equation}\label{eq:skew}
+va=\tau_n(a)v,\qquad av^h=v^h\tau_n^{-h}(a)\qquad(a\in T_n,\ h\in\mathbb Z),
+\end{equation}
+and distinct powers of $v$ are linearly independent over $T_n$ on both sides.
+\item[(2)] The $\Q$-subalgebra of $T_n$ generated by $t_1^{\pm1},\dots,t_n^{\pm1}$ is the quantum Laurent algebra $\mathcal A_n$, it is a two-sided Ore domain, and $T_n$ is its division ring of fractions.
+\end{enumerate}
+\end{lemma}
+
+\begin{proof}
+The automorphism $\tau_1$ of $\Q(t_1)$ with $\tau_1(t_1)=qt_1$ exists since $q\ne0$. Suppose that $n\ge2$ and that $\tau_{n-1}$ and $T_n=T_{n-1}(t_n;\tau_{n-1})$ have been constructed. Since $(qt_n)a=\tau_{n-1}(a)(qt_n)$ for $a\in T_{n-1}$, the identity of $T_{n-1}$ together with $t_n\mapsto qt_n$ defines an automorphism of $T_{n-1}[t_n;\tau_{n-1}]$, whose inverse is given by $t_n\mapsto q^{-1}t_n$, and by Section~\ref{subsec:skew} this automorphism extends to the division ring of fractions $T_n$. This yields $\tau_n$, and uniqueness holds since $T_n$ is generated as a division ring by $T_{n-1}$ and $t_n$.
+
+Assertion (1) is the multiplication rule of $T_n[v;\tau_n]$, extended to negative powers, together with Lemma~\ref{lem:skew}.
+
+For (2), assertion (1) applied to $\tau_i$ gives $t_{i+1}t_i=\tau_i(t_i)t_{i+1}=qt_it_{i+1}$, and for $j\ge i+2$ it gives $t_jt_i=\tau_{j-1}(t_i)t_j=t_it_j$, since $\tau_{j-1}$ fixes $T_{j-2}$. Thus the monomials $M_a$ in $T_n$ multiply according to \eqref{eq:qtorus}. They are linearly independent over $\Q$ by induction on $n$, since $M_a=M_{a'}t_n^{a_n}$ with $M_{a'}\in T_{n-1}$ and distinct powers of $t_n$ are left linearly independent over $T_{n-1}$ by (1). Hence the $\Q$-subalgebra of $T_n$ generated by $t_1^{\pm1},\dots,t_n^{\pm1}$ is $\mathcal A_n$, and it is a domain, being contained in $T_n$. Let $u,w\in\mathcal A_n$ be nonzero, and choose $W$ such that the supports of $u$ and $w$ lie in a translate of the box $\{0,\dots,W\}^n$. For $X,Y$ supported in $\{0,\dots,L\}^n$, the equation $uX=wY$ is a system of at most $(L+W+1)^n$ homogeneous $\Q$-linear equations in $2(L+1)^n$ unknown coefficients, so that it has a nonzero solution for $L$ large, and then $X$ and $Y$ are both nonzero, as $\mathcal A_n$ is a domain. The same argument applies to $Xu=Yw$, and so $\mathcal A_n$ is a two-sided Ore domain. By the universal property of Ore localization, its division ring of fractions is identified with the division subring of $T_n$ generated by $\mathcal A_n$. This division subring contains $T_{n-1}$ by induction, and $t_n$, hence $T_{n-1}[t_n;\tau_{n-1}]$, and therefore it equals $T_n$.
+\end{proof}
+
+In particular, the inclusions $\mathcal A_n\subseteq\mathcal A_{n+1}$ extend to the inclusions $T_n\subseteq T_{n+1}$ of their division rings of fractions.
+
+\section{Right pure semisimplicity from dimension sequences}\label{sec:crit}
+
+Throughout this section, $G\subseteq F$ is a division ring extension such that the bimodule ${}_GF_F$ has right dimension sequence $(1,2,2,2,\dots)$, and $R=\left(\begin{smallmatrix}G&F\\0&F\end{smallmatrix}\right)$. The results of this section are due to Simson \cite{Si97}; see also \cite[Section 6]{Ga18} and \cite[Section 1]{Sa}. They are proved here in the form needed for Theorem~\ref{thm:main}.
+
+Let $\Ksf_j=G$ for $j$ even and $\Ksf_j=F$ for $j$ odd, and let $N_0={}_GF_F$ and $N_{r+1}=N_r^{\rr}$, so that $N_r$ is a $\Ksf_r$-$\Ksf_{r+1}$-bimodule. A representation of $N_r$ is said to be of \emph{layer} $r$. By Section~\ref{subsec:rep}, right $R$-modules are the representations of layer $0$, and the finitely generated ones are those of finite dimension vector. Write $\Phi_r$ for the functor $\Phi$ of Proposition~\ref{prop:reflect} with $N=N_r$, and $\Phi_r^-$ for its inverse. Since $\dim(N_{r+1})_{\Ksf_{r+2}}=2$ for all $r\ge0$, the dimension vectors change by
+\begin{equation}\label{eq:dimchange}
+\Phi_r\colon(a,b)\mapsto(b,2b-a),\qquad \Phi_r^-\colon(b,c)\mapsto(2b-c,b).
+\end{equation}
+
+Let $S_k=(\Ksf_k,0,0)$ be the simple source of layer $k$, and put
+\[
+E_1=(G,0,0),\quad E_2=(0,F,0),\quad P=(G,F,\text{mult}),\quad I_k=\Phi_0^-\Phi_1^-\cdots\Phi_{k-1}^-(S_k)\ (k\ge1).
+\]
+Each inverse reflection in the definition of $I_k$ is defined: $S_k$ has surjective arrow, and each intermediate object is indecomposable and nonzero at its source vertex, so that its arrow is surjective by Lemma~\ref{lem:split}. By \eqref{eq:dimchange}, $I_k$ has dimension vector $(k+1,k)$.
+
+\begin{proposition}[{\cite{Si97}, \cite[Section 6]{Ga18}}]\label{prop:class}
+The modules $E_1$, $I_k$ $(k\ge1)$, $P$ and $E_2$ form a complete irredundant list of the finitely generated indecomposable right $R$-modules. Their endomorphism rings are division rings, and $\Hom_R(C,C')=0$ whenever $C$ precedes $C'$ in the order
+\begin{equation}\label{eq:order}
+E_1<I_1<I_2<\cdots<P<E_2.
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+The endomorphism rings are $G$, $F$, $\End(S_k)=\Ksf_k$ and $\End(P)=G$, respectively; for $P$, the map at the target vertex is determined by the map at the source vertex. Let $M=(X,Y,\gamma)$ be finitely generated, indecomposable, and not simple, with dimension vector $(a,b)$. By Lemma~\ref{lem:split}, $\beta_M$ is injective and $\gamma$ is surjective. As $\dim(X\otimes_GF)_F=a$ and $\dim(Y\otimes_FN_1)_G=2b$, one has $b\le a\le2b$. If $a=b$, then $\gamma$ is an isomorphism, so that $M\cong P^a$, and hence $M\cong P$. Suppose that $a>b$ and put $\delta=a-b$. As long as the current object is indecomposable and not a simple source, its $\beta$ is injective and it can be reflected; the reflected object is indecomposable with surjective arrow, hence not a simple target. By \eqref{eq:dimchange}, after $s$ steps the dimension vector is $(a-s\delta,b-s\delta)$. Since dimensions are nonnegative, the process stops at a simple source, which forces $\delta=1$ and $s=b$. Applying the inverse equivalences yields $M\cong I_b$. Every finitely generated module has finite length by Lemma~\ref{lem:artinian}, and so is a finite direct sum of these modules.
+
+A morphism $(u,0)$ from $E_1$ to a representation with injective $\beta$ satisfies $\beta u=0$, hence vanishes. This gives $\Hom(E_1,C)=0$ for every later $C$, the modules $E_2$, $P$ and $I_k$ having injective $\beta$. Let $k<l$. The modules $I_k$, $I_l$ and $P$ remain without simple source summands under $\Phi_0,\dots,\Phi_{k-2}$; for $P$, note that \eqref{eq:dimchange} fixes $(1,1)$. Applying $\Phi_{k-1}\cdots\Phi_0$ turns $I_k$ into $S_k$, and turns $I_l$ and $P$ into indecomposable objects that are not simple sources, so that $\Hom(I_k,I_l)=\Hom(I_k,P)=0$ by the previous argument and full faithfulness. Finally, a morphism $(0,v)$ from a representation with surjective arrow $\gamma$ to $E_2$ satisfies $v\gamma=0$, hence vanishes; this gives $\Hom(I_k,E_2)=\Hom(P,E_2)=0$.
+\end{proof}
+
+\begin{theorem}[{\cite{Si97}}]\label{thm:pss}
+Every right $R$-module is a direct sum of copies of the modules in Proposition~\ref{prop:class}, which are finitely presented by Lemma~\ref{lem:artinian}. In particular, $R$ is right pure semisimple, and the modules $I_k$, $k\ge1$, are pairwise non-isomorphic finitely generated indecomposable right $R$-modules.
+\end{theorem}
+
+\begin{proof}
+The first assertion follows from Proposition~\ref{prop:class} and Lemma~\ref{lem:decomp}, applied to the well order \eqref{eq:order}, and the last assertion holds since the dimension vectors $(k+1,k)$ are distinct.
+\end{proof}
+
+\section{Flags and iterated right duals}\label{sec:flags}
+
+Throughout this section, $T$ is a division ring, $t\in T$, and $(H_r)_{r\ge0}$ is a family of division subrings of $T$ with $H_0=T$ and $H_1=H$ satisfying conditions (B) and (F). The $H_r$ are not assumed to be nested.
+
+\begin{proposition}\label{prop:flags}
+For all $p\ge1$ and $e\ge0$,
+\begin{equation}\label{eq:flags}
+\textstyle\bigoplus_{i=0}^{e}H_pt^i=\bigoplus_{i=0}^{e}t^iH_{p+e}.
+\end{equation}
+In particular, the powers $1,t,t^2,\dots$ are left linearly independent over $H$, and $\dim{}_HT=\infty$.
+\end{proposition}
+
+\begin{proof}
+Let $L_e(p)=\sum_{i=0}^{e}H_pt^i$. The case $e=0$ is trivial. For $e\ge1$, put $r=p+e-1$. Since $L_e(p)=L_{e-1}(p)+L_{e-1}(p)t$, the induction hypothesis and (F) yield
+\[
+L_e(p)=\sum_{i=0}^{e-1}t^i(H_r+H_rt)=\sum_{i=0}^{e-1}t^i(H_{r+1}+tH_{r+1})=\sum_{i=0}^{e}t^iH_{p+e},
+\]
+and the last sum is direct by (B). It remains to show that the sum $\sum_{i=0}^{e}H_pt^i$ is direct. Suppose that $\sum_{i=0}^{e}a_it^i=0$ with $a_i\in H_p$ and $a_e\ne0$. Then $e\ge1$ and $t^e\in L_{e-1}(p)$, so that $L=L_{e-1}(p)=L_e(p)$. In particular, $L$ is a finite-dimensional left $H_p$-space containing $1$. Let
+\[
+S=\{s\in T: Ls\subseteq L\}.
+\]
+If $0\ne s\in S$, right multiplication by $s$ is an injective left $H_p$-linear endomorphism of $L$, hence bijective, so that $s^{-1}\in S$. Thus $S$ is a division subring of $T$. The two expressions $L=\sum_{i=0}^{e-1}t^iH_r$ and $L=\sum_{i=0}^{e}t^iH_{r+1}$ show that $S$ contains $H_r$ and $H_{r+1}$. Since $T$ is a right $S$-space of dimension at most $[T:H_r]_{\rr}$, multiplying right bases yields
+\[
+[T:H_r]_{\rr}=[T:S]_{\rr}[S:H_r]_{\rr},\qquad [T:H_{r+1}]_{\rr}=[T:S]_{\rr}[S:H_{r+1}]_{\rr}.
+\]
+By (B), these indices are $p+e$ and $p+e+1$, which are coprime, so that $[T:S]_{\rr}=1$ and $S=T$. As $1\in L$, it follows that $L=T$, which contradicts $\dim L_{H_r}=e<p+e=[T:H_r]_{\rr}$. The last assertion follows by taking $p=1$ and letting $e$ grow.
+\end{proof}
+
+For $k\ge1$ put
+\[
+\C_k=H_k\oplus H_kt=H_{k+1}\oplus tH_{k+1},
+\]
+which is an $H_k$-$H_{k+1}$-bimodule by (F), and let $\C_0=T$, regarded as a $T$-$H$-bimodule. By (B) with $r=1$, one has $\C_0=H_1\oplus tH_1$. Thus $\C_k=H_{k+1}\oplus tH_{k+1}$ for every $k\ge0$.
+
+\begin{proposition}\label{prop:stab}
+For every $k\ge0$,
+\[
+\{f\in T: f\C_k\subseteq\C_k\}=H_k,\qquad \{g\in T:\C_{k+1}g\subseteq\C_{k+1}\}=H_{k+2}.
+\]
+\end{proposition}
+
+\begin{proof}
+The case $k=0$ of the first equality is trivial. Let $k\ge1$ and suppose that $f\C_k\subseteq\C_k$. As $1\in\C_k$, one may write $f=a+bt$ with $a,b\in H_k$, and then $ft=at+bt^2\in H_k+H_kt$. By Proposition~\ref{prop:flags} with $p=k$ and $e=2$, the elements $1,t,t^2$ are left linearly independent over $H_k$, so that $b=0$. Similarly, suppose that $\C_{k+1}g\subseteq\C_{k+1}$ and write $g=a+tb$ with $a,b\in H_{k+2}$. Then $tg=ta+t^2b\in H_{k+2}+tH_{k+2}$, and (B) with $r=k+2$ yields $b=0$. The reverse inclusions are trivial.
+\end{proof}
+
+\begin{proposition}\label{prop:recip}
+Let $k\ge0$. For $f\in H_k$, write $f=a+tb$ and $ft=c+td$ with $a,b,c,d\in H_{k+1}$, and put $\sigma_k(f)=d-bt$. Then $\sigma_k\colon H_k\to H_{k+2}$ is an isomorphism of division rings. Moreover, the map
+\[
+J_k\colon\C_{k+1}\to\Hom_{H_{k+1}}(\C_k,H_{k+1}),\qquad J_k(u+vt)(a'+tb')=-va'+ub'\quad(u,v,a',b'\in H_{k+1}),
+\]
+is a left $H_{k+1}$-linear bijection satisfying
+\begin{equation}\label{eq:twist}
+J_k(z)\cdot f=J_k(z\sigma_k(f))\qquad(z\in\C_{k+1},\ f\in H_k),
+\end{equation}
+where $(\phi\cdot f)(x)=\phi(fx)$.
+\end{proposition}
+
+\begin{proof}
+Comparing the two expressions $ft=at+tbt$ and $ft=c+td$ yields $t\sigma_k(f)=at-c$. Each $J_k(z)$ is right $H_{k+1}$-linear, $J_k$ is left $H_{k+1}$-linear, and the values $-v,u$ of $J_k(u+vt)$ at $1,t$ are arbitrary, so that $J_k$ is bijective. The matrix of left multiplication by $f$ with respect to the right basis $(1,t)$ of $\C_k$ over $H_{k+1}$ is $\left(\begin{smallmatrix}a&c\\b&d\end{smallmatrix}\right)$. Hence the values of $J_k(z)\cdot f$ at $1$ and $t$ are $-va+ub$ and $-vc+ud$, which are the values of $J_k$ at
+\[
+(-vc+ud)+(va-ub)t=u(d-bt)+v(at-c)=(u+vt)\sigma_k(f).
+\]
+This proves \eqref{eq:twist}, and shows that $\C_{k+1}\sigma_k(f)\subseteq\C_{k+1}$, so that $\sigma_k(f)\in H_{k+2}$ by Proposition~\ref{prop:stab}. Since $(\phi\cdot f_1)\cdot f_2=\phi\cdot(f_1f_2)$, two applications of \eqref{eq:twist} at $z=1$ and the injectivity of $J_k$ yield $\sigma_k(f_1f_2)=\sigma_k(f_1)\sigma_k(f_2)$. Additivity and $\sigma_k(1)=1$ follow from the definition, and so $\sigma_k$ is an injective ring homomorphism.
+
+Conversely, let $g\in H_{k+2}$. Since $g,tg\in\C_{k+1}=H_{k+1}\oplus H_{k+1}t$, one may write $g=d-bt$ and $tg=at-c$ with $a,b,c,d\in H_{k+1}$. Put $f=a+tb$. Then $ft=at+tbt=c+td$, so that $f,ft\in\C_k$. As $\C_k=H_{k+1}\oplus tH_{k+1}$, it follows that $f\C_k\subseteq\C_k$, whence $f\in H_k$ by Proposition~\ref{prop:stab}, and $\sigma_k(f)=g$.
+\end{proof}
+
+\begin{theorem}\label{thm:dimseq}
+The bimodule ${}_HT_T$ has right dimension sequence $(1,2,2,2,\dots)$.
+\end{theorem}
+
+\begin{proof}
+Let $\Ksf_j=H$ for $j$ even and $\Ksf_j=T$ for $j$ odd. Put $N_0={}_HT_T$ and $N_{r+1}=N_r^{\rr}$, so that $N_r$ is a $\Ksf_r$-$\Ksf_{r+1}$-bimodule. Define isomorphisms of division rings $\lambda_k\colon\Ksf_{k+1}\to H_k$ by
+\[
+\lambda_0=\mathrm{id}_T,\qquad\lambda_1=\mathrm{id}_H,\qquad\lambda_{k+2}=\sigma_k\lambda_k,
+\]
+which is possible since $\Ksf_{k+3}=\Ksf_{k+1}$. It is shown by induction on $k$ that there are bijections $\beta_k\colon N_{k+1}\to\C_k$ with
+\begin{equation}\label{eq:transport}
+\beta_k(b\phi a)=\lambda_k(b)\,\beta_k(\phi)\,\lambda_{k+1}(a)\qquad(b\in\Ksf_{k+1},\ a\in\Ksf_{k+2}).
+\end{equation}
+For $k=0$, the evaluation $\beta_0(\phi)=\phi(1)$ identifies $N_1=\Hom_T(T_T,T_T)$ with ${}_TT_H=\C_0$, since $(b\phi a)(1)=b\phi(1)a$. Suppose that $\beta_k$ has been constructed. For $\phi\in N_{k+2}$, the map $\widehat\phi=\lambda_{k+1}\circ\phi\circ\beta_k^{-1}\colon\C_k\to H_{k+1}$ is right $H_{k+1}$-linear by \eqref{eq:transport}, and $\phi\mapsto\widehat\phi$ is a bijection onto $\Hom_{H_{k+1}}(\C_k,H_{k+1})$, with inverse $\psi\mapsto\lambda_{k+1}^{-1}\circ\psi\circ\beta_k$. Put $\beta_{k+1}(\phi)=J_k^{-1}(\widehat\phi)$. For $b\in\Ksf_{k+2}$ and $a\in\Ksf_{k+1}$, one has $\widehat{b\phi a}=\lambda_{k+1}(b)\,\widehat\phi\cdot\lambda_k(a)$ by \eqref{eq:transport}, and so \eqref{eq:twist} yields
+\[
+\beta_{k+1}(b\phi a)=\lambda_{k+1}(b)\,\beta_{k+1}(\phi)\,\sigma_k\lambda_k(a)=\lambda_{k+1}(b)\,\beta_{k+1}(\phi)\,\lambda_{k+2}(a).
+\]
+This completes the induction. It follows that $\dim(N_0)_T=1$, and that
+\[
+\dim(N_r)_{\Ksf_{r+1}}=\dim(\C_{r-1})_{H_r}=2\qquad(r\ge1).
+\]
+\end{proof}
+
+\section{The quantum chain}\label{sec:chain}
+
+Throughout this section, $q=1/2$, and $T_n$ and $\tau_n$ are as in Lemma~\ref{lem:qtorus}, so that $T_n$ is the division ring of fractions of $\mathcal A_n$. Put $T=\bigcup_nT_n$ and $t=t_1$. The relations \eqref{eq:skew} and the two-sided linear independence of the powers of $t_{n+1}$ over $T_n$ justify all comparisons of coefficients below.
+
+\subsection{The embeddings}
+For $r\ge0$ let $P_r(X)=\prod_{h=0}^{r-1}(1-q^hX)\in\Q[X]$, so that $P_0=1$. For $r\ge1$ and $n\ge0$ put
+\[
+\Gamma_{n,r}=(1-t_1)P_r(t_2)\cdots P_r(t_{n+1})\in T_{n+1},
+\]
+the factors being taken in the indicated order, and define $\kappa_r(x)=\Gamma_{n,r}x\Gamma_{n,r}^{-1}$ for $x\in T_n$. Since $\Gamma_{n+1,r}=\Gamma_{n,r}P_r(t_{n+2})$ and $P_r(t_{n+2})$ centralizes $T_n$, these conjugations are compatible, and so they define a unital ring embedding $\kappa_r\colon T\to T$. Put
+\[
+H_r=\kappa_r(T)\ (r\ge1),\quad H_0=T,\quad H=H_1,\qquad H_{r,n}=\kappa_r(T_n).
+\]
+Thus $H_r$ is the increasing union of the division subrings $H_{r,n}$.
+
+\subsection{Right bases}
+
+\begin{proposition}\label{prop:B}
+Let $r\ge1$. Then $1,t,\dots,t^r$ is a right basis of $T$ over $H_r$, so that condition \textup{(B)} holds.
+\end{proposition}
+
+\begin{proof}
+Write $P_r(X)=\sum_{h=0}^{r}d_hX^h$. Up to the sign $(-1)^h$, the coefficient $d_h$ is an elementary symmetric function of the positive numbers $1,q,\dots,q^{r-1}$, so that $d_h\ne0$. In what follows, all matrix indices run over $0,\dots,r$. For $n\ge1$ put $C_n=\Gamma_{n-1,r}$, $u_n=C_n^{-1}tC_n\in T_n$, and
+\[
+\Asf_n[k,i]=\tau_n^{-k}(u_n^i),\quad V[k,h]=q^{-kh},\quad D_n=\diag_kP_r(q^{-k}t_n),\quad E_n=\diag_h(d_ht_n^h).
+\]
+Then $V$ is a Vandermonde matrix with distinct rational nodes, $D_n$ and $E_n$ are invertible diagonal matrices over $T_n$, and $\Asf_1=V\diag_i(t^i)$. Let $n\ge2$. Since $C_n=C_{n-1}P_r(t_n)$, one has $u_n=P_r(t_n)^{-1}u_{n-1}P_r(t_n)$, and $\tau_n$ fixes $u_{n-1}\in T_{n-1}$. It follows that $\tau_n^{-k}(u_n^i)=P_r(q^{-k}t_n)^{-1}u_{n-1}^iP_r(q^{-k}t_n)$, and \eqref{eq:skew}, applied to $\tau_{n-1}$ and $t_n$, yields
+\begin{equation}\label{eq:Arec}
+(D_n\Asf_n)[k,i]=u_{n-1}^iP_r(q^{-k}t_n)=\sum_hq^{-kh}d_ht_n^h\tau_{n-1}^{-h}(u_{n-1}^i)=(VE_n\Asf_{n-1})[k,i].
+\end{equation}
+Only rational scalars are moved in \eqref{eq:Arec}. By induction on $n$, every $\Asf_n$ is invertible.
+
+Fix $n\ge1$, write $v=t_{n+1}$ and $P=P_r(v)$, and let $\mathcal U=P^{-1}\bigoplus_{h=0}^{r}v^hT_n$, a right $T_n$-space with basis $P^{-1}v^h$. Put $z=\Gamma_{n,r}^{-1}t\Gamma_{n,r}=P^{-1}u_nP$. By \eqref{eq:skew},
+\begin{equation}\label{eq:zpowers}
+z^i=P^{-1}u_n^iP=\sum_{h}P^{-1}v^h\,d_h\Asf_n[h,i],
+\end{equation}
+and since the matrix $(d_h\Asf_n[h,i])$ is invertible, $1,z,\dots,z^r$ is a right $T_n$-basis of $\mathcal U$. Let $x\in T_n$ and put $a=C_n^{-1}xC_n\in T_n$. Then
+\[
+\Gamma_{n,r}^{-1}x\Gamma_{n,r}=P^{-1}aP=\sum_hP^{-1}v^h\,d_h\tau_n^{-h}(a)\in\mathcal U,
+\]
+so that $P^{-1}aP=\sum_iz^iy_i$ for unique $y_i\in T_n$, determined by $\Asf_n(y_i)_i=(\tau_n^{-k}(a))_k$. Conjugating back by $\Gamma_{n,r}$ yields $x=\sum_it^i\kappa_r(y_i)$. For $n=0$, an element of $\Q$ is its own constant coordinate. Hence $T=\sum_it^iH_r$.
+
+Conversely, suppose that $\sum_it^ih_i=0$ with $h_i\in H_r$. Choose $n$ such that $h_i=\kappa_r(y_i)$ with $y_i\in T_n$ for all $i$. Conjugation by $\Gamma_{n,r}$ turns the relation into $\sum_iz^iy_i=0$, and so all $y_i$ vanish.
+\end{proof}
+
+\subsection{Adjacent flags}
+
+For $p\ge1$, $n\ge0$ and $i=0,1$ put $w_i^{(n)}=w_i^{(n)}(p)=\Gamma_{n,p}^{-1}t^i\Gamma_{n,p+1}$, and let
+\[
+\mathcal E_n=T_n\oplus t_{n+1}T_n=T_n\oplus T_nt_{n+1}.
+\]
+
+\begin{proposition}\label{prop:F}
+Let $p\ge1$ and $n\ge0$. Then
+\begin{equation}\label{eq:Fn}
+H_{p,n}\oplus H_{p,n}t=H_{p+1,n}\oplus tH_{p+1,n}.
+\end{equation}
+In particular, $H_p\oplus H_pt=H_{p+1}\oplus tH_{p+1}$, so that condition \textup{(F)} holds.
+\end{proposition}
+
+\begin{proof}
+Multiplication by $\Gamma_{n,p}^{-1}$ on the left and by $\Gamma_{n,p+1}$ on the right sends $H_{p,n}t^i$ onto $T_nw_i^{(n)}$, and $t^iH_{p+1,n}$ onto $w_i^{(n)}T_n$. Therefore \eqref{eq:Fn} follows once $w_0^{(n)},w_1^{(n)}$ is shown to be both a left and a right $T_n$-basis of $\mathcal E_n$. For $n=0$ one has $w_0^{(0)}=1$ and $w_1^{(0)}=t$, and there is nothing to prove. Let $n\ge1$ and write $v=t_{n+1}$. Since $\Gamma_{n,r}=\Gamma_{n-1,r}P_r(v)$, one has $w_i^{(n)}=P_p(v)^{-1}w_i^{(n-1)}P_{p+1}(v)$. The identities
+\begin{equation}\label{eq:cancel}
+\begin{gathered}
+P_{p+1}(X)=(1-q^pX)P_p(X),\qquad P_{p+1}(q^{-1}X)=(1-q^{-1}X)P_p(X),\\
+P_{p+1}(X)=(1-X)P_p(qX)
+\end{gathered}
+\end{equation}
+hold in $\Q[X]$.
+
+For the right basis, write $w_i^{(n-1)}=\sum_{h=0}^{1}t_n^h\Msf_{n-1}[h,i]$ with $\Msf_{n-1}[h,i]\in T_{n-1}$, which commute with $v$. By \eqref{eq:skew}, $t_n^hP_{p+1}(v)=P_{p+1}(q^{-h}v)t_n^h$, and \eqref{eq:cancel} yields
+\[
+w_i^{(n)}=(1-q^pv)\Msf_{n-1}[0,i]+(1-q^{-1}v)t_n\Msf_{n-1}[1,i].
+\]
+Hence the coordinate matrix $\Msf_n$ of $w_0^{(n)},w_1^{(n)}$ with respect to the right basis $1,v$ satisfies
+\begin{equation}\label{eq:Mrec}
+\Msf_n=\Csf_p\diag(1,t_n)\Msf_{n-1},\qquad \Csf_p=\begin{pmatrix}1&1\\-q^p&-q^{-1}\end{pmatrix}.
+\end{equation}
+For the left basis, write $w_i^{(n-1)}=\sum_{h=0}^{1}\Nsf_{n-1}[i,h]t_n^h$ with $\Nsf_{n-1}[i,h]\in T_{n-1}$. By \eqref{eq:skew}, $P_p(v)^{-1}t_n^h=t_n^hP_p(q^hv)^{-1}$, and \eqref{eq:cancel} yields
+\[
+w_i^{(n)}=\Nsf_{n-1}[i,0](1-q^pv)+\Nsf_{n-1}[i,1]t_n(1-v).
+\]
+Hence the coordinate matrix $\Nsf_n$ with respect to the left basis $1,v$ satisfies
+\begin{equation}\label{eq:Nrec}
+\Nsf_n=\Nsf_{n-1}\diag(1,t_n)\Dsf_p,\qquad \Dsf_p=\begin{pmatrix}1&-q^p\\1&-1\end{pmatrix}.
+\end{equation}
+Since $\det\Csf_p=q^p-q^{-1}$ and $\det\Dsf_p=q^p-1$ are nonzero, induction on $n$ shows that $\Msf_n$ and $\Nsf_n$ are invertible. This proves \eqref{eq:Fn}. Since any two elements of $H_p$ lie in a common $H_{p,n}$, and similarly for $H_{p+1}$, the last assertion follows by taking unions over $n$.
+\end{proof}
+
+\section{Proof of the main theorem}\label{sec:proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+By Propositions~\ref{prop:B} and \ref{prop:F}, the division ring $T$, the element $t=t_1$ and the family $(H_r)$ satisfy conditions (B) and (F). Theorem~\ref{thm:dimseq} shows that ${}_HT_T$ has right dimension sequence $(1,2,2,2,\dots)$, and Proposition~\ref{prop:flags} shows that $\dim{}_HT=\infty$. By Theorem~\ref{thm:pss}, applied to $H\subseteq T$, the ring $R$ is right pure semisimple, and the modules $I_k$, $k\ge1$, are pairwise non-isomorphic finitely generated indecomposable right $R$-modules, so that $R$ is not of finite representation type.
+
+It remains to show that $R$ is not left pure semisimple. For every left $H$-subspace $V$ of $T$, the set $\left(\begin{smallmatrix}0&V\\0&0\end{smallmatrix}\right)$ is a left ideal of $R$, since
+\[
+\begin{pmatrix}h&a\\0&b\end{pmatrix}\begin{pmatrix}0&v\\0&0\end{pmatrix}=\begin{pmatrix}0&hv\\0&0\end{pmatrix}.
+\]
+By Proposition~\ref{prop:flags}, the left $H$-subspaces $V_k=\bigoplus_{i\ge k}Ht^i$, $k\ge0$, form a strictly descending chain, and so $R$ is not left artinian. By the theorem of Chase \cite{Ch}, the ring $R$ is not left pure semisimple.
+\end{proof}
+
+\begin{thebibliography}{99}
+
+\bibitem{Au} M. Auslander, Large modules over Artin algebras, in: \emph{Algebra, Topology and Category Theory}, Academic Press, New York, 1976, pp.~3--17.
+
+\bibitem{BG} K. A. Brown, K. R. Goodearl, \emph{Lectures on Algebraic Quantum Groups}, Advanced Courses in Mathematics CRM Barcelona, Birkh\"auser, Basel, 2002.
+
+\bibitem{Ch} S. U. Chase, Direct products of modules, Trans. Amer. Math. Soc. 97 (1960), 457--473.
+
+\bibitem{Co} P. M. Cohn, \emph{Skew Fields. Theory of General Division Rings}, Encyclopedia Math. Appl. 57, Cambridge University Press, Cambridge, 1995.
+
+\bibitem{DR} V. Dlab, C. M. Ringel, Indecomposable representations of graphs and algebras, Mem. Amer. Math. Soc. 6 (1976), no.~173.
+
+\bibitem{FGR} R. M. Fossum, P. A. Griffith, I. Reiten, \emph{Trivial Extensions of Abelian Categories}, Lecture Notes in Math. 456, Springer, Berlin, 1975.
+
+\bibitem{Ga14} J. L. Garc\'{\i}a, On hereditary artinian rings and the pure semisimplicity conjecture: rigid tilting modules and a weak conjecture, Colloq. Math. 135 (2014), 227--262.
+
+\bibitem{Ga18} J. L. Garc\'{\i}a, Small potential counterexamples to the pure semisimplicity conjecture, J. Algebra Appl. 17 (2018), no.~10, 1850183.
+
+\bibitem{GW} K. R. Goodearl, R. B. Warfield, \emph{An Introduction to Noncommutative Noetherian Rings}, 2nd ed., London Math. Soc. Student Texts 61, Cambridge University Press, Cambridge, 2004.
+
+\bibitem{He} I. Herzog, A test for finite representation type, J. Pure Appl. Algebra 95 (1994), 151--182.
+
+\bibitem{Sa} J. \v{S}aroch, Pure semisimplicity conjecture and Artin problem for dimension sequences, J. Pure Appl. Algebra 225 (2021); arXiv:1909.13864.
+
+\bibitem{Sc85} A. Schofield, \emph{Representations of Rings over Skew Fields}, London Math. Soc. Lecture Note Ser. 92, Cambridge University Press, Cambridge, 1985.
+
+\bibitem{Sc87} A. Schofield, Hereditary artinian rings of finite representation type and extensions of simple artinian rings, Math. Proc. Cambridge Philos. Soc. 102 (1987), 411--420.
+
+\bibitem{Si77} D. Simson, Pure semisimple categories and rings of finite representation type, J. Algebra 48 (1977), 290--296.
+
+\bibitem{Si81} D. Simson, Partial Coxeter functors and right pure semisimple hereditary rings, J. Algebra 71 (1981), 195--218.
+
+\bibitem{Si83} D. Simson, Indecomposable modules over one-sided serial local rings and right pure semisimple PI-rings, Tsukuba J. Math. 7 (1983), 87--103.
+
+\bibitem{Si95} D. Simson, On right pure semisimple hereditary rings and an Artin problem, J. Pure Appl. Algebra 104 (1995), 313--332.
+
+\bibitem{Si97} D. Simson, A class of potential counterexamples to the pure semisimplicity conjecture, in: \emph{Advances in Algebra and Model Theory}, Algebra Logic Appl. 9, Gordon and Breach, Amsterdam, 1997, pp.~345--373.
+
+\bibitem{Si00} D. Simson, An Artin problem for division ring extensions and the pure semisimplicity conjecture II, J. Algebra 227 (2000), 670--705.
+
+\end{thebibliography}
+
+\end{document}

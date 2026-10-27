@@ -1,0 +1,30 @@
+{
+  "basis": "Count of 16 labelled principal manuscript statements; all 16 have compiled, axiom-audited Lean counterparts. See verification_status.json interpretive_notes for formalization choices.",
+  "completed_labels": [
+    "lem:adj",
+    "lem:artinian",
+    "lem:split",
+    "lem:skew",
+    "prop:flags",
+    "prop:stab",
+    "prop:recip",
+    "thm:dimseq",
+    "prop:B",
+    "prop:F",
+    "prop:reflect",
+    "prop:class",
+    "lem:decomp",
+    "thm:pss",
+    "lem:qtorus",
+    "thm:main"
+  ],
+  "completed_count": 16,
+  "total_principal_statements": 16,
+  "count_percentage": 100.0,
+  "engineering_work_percentage": null,
+  "correctness_probability": null,
+  "full_counterexample_verified": true,
+  "audited_theorem_count": 832,
+  "verification_checked_at_utc": "2026-10-25T19:53:57.961798+00:00",
+  "partial_progress_note": "Claude continuation 2026-10-25: prop:class, lem:decomp, thm:pss, lem:qtorus (general q) and thm:main compiled and audited. The left half of thm:main is proved without the theorem of Chase. Label count 16/16."
+}
